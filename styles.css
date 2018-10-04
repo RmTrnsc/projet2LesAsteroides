@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+}
+
+body {
+    width: 110vw;
+    height: 100vw;
+}
+
+#image-de-fond {
+    position: absolute;
+    width: 110vw;
+    height: 100vw;
+    z-index: -1;
+}
+
+@media only screen and (max-device-width: 375px) {
+    * {
+        margin: 0;
+    }
+
+}
