@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AsteroidterreComponent } from './asteroidterre/asteroidterre.component';
 import { AsteroidceintureComponent } from './asteroidceinture/asteroidceinture.component';
@@ -14,7 +14,8 @@ import { AsteroidconnuComponent } from './asteroidconnu/asteroidconnu.component'
     AsteroidconnuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

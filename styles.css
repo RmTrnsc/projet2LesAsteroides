@@ -5,13 +5,13 @@
 
 body {
     width: 110vw;
-    height: 100vw;
+    height: 70vw;
 }
 
 #image-de-fond {
     position: absolute;
     width: 110vw;
-    height: 100vw;
+    height: 90vw;
     z-index: -1;
 }
 

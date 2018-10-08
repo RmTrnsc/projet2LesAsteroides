@@ -1,16 +1,70 @@
+    /*..............title..............*/
 
 #title {
     position: absolute;
     position: sticky;
     color: rgb(120, 234, 238);
     font-size: 3.5em;
+    z-index: 1;
+
 }
 
-#logo-nasa {
-    position: absolute;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    /*............. carousel............ */
+
+#carouselExampleFade {
+    width: 50vw;
+    background-color: red;
 }
 
-@media only screen and (max-device-width: 667px) {                                                                        
+.carousel-item {
+    width: 100vw;
+    background-color: aqua;
+}
+
+    /*...............categoy..............*/
+
+.title-category {
+    width: 25vw;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    margin-top: 8em;
+}
+
+#title-categoryKuiperBelt > p {
+    color: rgb(120, 234, 238);
+    font-size: 2em;
+    float: right;
+    text-align: center;
+    margin: 2em;
+    border: 3px solid rgb(120, 234, 238);
+    border-radius: 40px;
+    width: 15vw;
+}
+
+#title-categoryYouKnow > p {
+    color: rgb(120, 234, 238);
+    font-size: 2em;
+    float: right;
+    text-align: center;
+    margin: 2em;
+    border: 3px solid rgb(120, 234, 238);
+    border-radius: 40px;
+    width: 15vw;
+}
+
+#title-categoryApprochEarth > p {
+    color: rgb(120, 234, 238);
+    font-size: 2em;
+    float: right;
+    text-align: center;
+    margin: 2em;
+    border: 3px solid rgb(120, 234, 238);
+    border-radius: 40px;
+    width: 14vw;
+}
+
+@media only screen and (max-device-width: 667px) {
     #title {
         font-size: 1.5em;
     }
