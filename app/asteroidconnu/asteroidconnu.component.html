@@ -1,3 +1,134 @@
-<p>
-  asteroidconnu works!
-</p>
+<link rel="stylesheet" href="asteroidconnu.component.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+<!-------------------------------------------CAROUSEL------------------------------------------>
+<div id="carousel-asteroid">
+
+  <div class="carousel">
+
+      <div class="item">
+          <img src="http://image.noelshack.com/fichiers/2018/41/3/1539174985-ceres.png">
+          <div class="name-item-carousel"><p>Cérès</p></div>
+      </div>
+  
+      <div class="item">
+          <img src="http://image.noelshack.com/fichiers/2018/41/3/1539177130-vesta.png">
+          <div class="name-item-carousel"><p>Vesta</p></div>
+      </div>
+  
+      <div class="item">
+          <img src="http://image.noelshack.com/fichiers/2018/41/3/1539177053-eros.png">
+          <div class="name-item-carousel"><p>Eros</p></div>
+      </div>
+  
+      <div class="item">
+          <img src="http://image.noelshack.com/fichiers/2018/41/3/1539177089-ida.png">
+          <div class="name-item-carousel"><p>Ida</p></div>
+      </div>
+  
+      <div class="item">
+          <img id="lutetia" src="http://image.noelshack.com/fichiers/2018/41/3/1539177241-lutetia.png">
+          <div class="name-item-carousel" id="name-lutetia" ><p>Lutetia</p></div>
+      </div>
+  
+      <div class="item">
+          <img src="http://image.noelshack.com/fichiers/2018/41/3/1539177109-mathilde.png">
+          <div class="name-item-carousel"><p>Mathilde</p></div>
+      </div>
+      
+  </div>
+  
+</div>
+
+<!------------------------------------------------------------------------------------->
+
+  <div class="carousel-info-asteroid-connu">
+      <div class="item2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta dolor vel
+          fermentum facilisis. Nam sed euismod sem. Sed posuere tellus quis libero vehicula 
+          consectetur. Sed ex nunc, interdum id ipsum in, maximus posuere felis. Sed est diam,
+        </p></div>
+      <div class="item2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta dolor vel
+          fermentum facilisis. Nam sed euismod sem. Sed posuere tellus quis libero vehicula 
+          consectetur. Sed ex nunc, interdum id ipsum in, maximus posuere felis. Sed est diam,
+        </p></div>
+      <div class="item2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta dolor vel
+          fermentum facilisis. Nam sed euismod sem. Sed posuere tellus quis libero vehicula 
+          consectetur. Sed ex nunc, interdum id ipsum in, maximus posuere felis. Sed est diam,
+        </p></div>
+      <div class="item2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta dolor vel
+          fermentum facilisis. Nam sed euismod sem. Sed posuere tellus quis libero vehicula 
+          consectetur. Sed ex nunc, interdum id ipsum in, maximus posuere felis. Sed est diam,
+        </p></div>
+      <div class="item2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta dolor vel
+          fermentum facilisis. Nam sed euismod sem. Sed posuere tellus quis libero vehicula 
+          consectetur. Sed ex nunc, interdum id ipsum in, maximus posuere felis. Sed est diam,
+        </p></div>
+      <div class="item2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta dolor vel
+              fermentum facilisis. Nam sed euismod sem. Sed posuere tellus quis libero vehicula 
+              consectetur. Sed ex nunc, interdum id ipsum in, maximus posuere felis. Sed est diam,
+        </p></div>
+      
+  
+  </div>
+
+  <div class="button-aste">
+      <button id="button-left-carousel" onclick="turn(-1); rotate(-1)" style="font-size:2.4em;color:#00bcd4 "><i class="fa fa-chevron-left"></i></button>
+      <button id="button-right-carousel" onclick="turn(1); rotate(1)" style="font-size:2.4em;color: #00bcd4"><i class="fa fa-chevron-right"></i></button>
+  </div>
+  
+  <script>
+  
+      let length, deg, z, move = 0, obj, y, moove = 0;
+
+      function rotate(direction){
+          move += direction;
+
+          for(let i = 0; i < length; i++){
+              items[i].style.transform = "rotateY("+(deg*(i+move))+"deg) translateZ("+z+"px)";
+          }
+      }
+
+      function DOMContentLoaded(){
+          items = document.getElementsByClassName('item');
+          length = items.length;
+
+          deg = 360 / length;
+          z = (items[0].offsetWidth / 2) / Math.tan((deg / 2) * (Math.PI / 180))
+
+          for(let i = 0; i < length; i++){
+              items[i].style.transform = "rotateY("+(deg*i)+"deg) translateZ("+z+"px)";
+          }
+      }
+  
+      window.addEventListener('DOMContentLoaded', DOMContentLoaded);       
+
+      function turn(direction){
+          
+          moove += direction;
+      
+         for(let j = 0; j < length; j++){
+              obj[j].style.transform = "rotateY("+(deg*(j+moove))+"deg) translateZ("+y+"px)";
+          }
+      }
+      
+      function load(){
+          
+          obj = document.getElementsByClassName('item2');
+          length = obj.length;
+     
+          deg = 360 / length;
+          y = (obj[0].offsetWidth / 2) / Math.tan((deg / 2) * (Math.PI / 180))
+      
+          for(let j = 0; j < length; j++){
+             obj[j].style.transform = "rotateY("+(deg*j)+"deg) translateZ("+y+"px)";
+         }
+      }
+  
+      window.addEventListener('load', load);
+
+  </script>
