@@ -1,23 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
-* {
-    margin: 0;
-}
 
-body {
-    width: 110vw;
-    height: 70vw;
-}
 
-#image-de-fond {
+
+#image-de-fond {    
     position: absolute;
-    width: 110vw;
-    height: 90vw;
+    width: 100vw;
+    height: 71.95vw;
     z-index: -1;
 }
 
-@media only screen and (max-device-width: 375px) {
-    * {
-        margin: 0;
-    }
+@media only scren and (min-device-width: 813px) and (max-device-width: 1024px){
 
+    #image-de-fond {
+        position: absolute;
+        width: 180vw;
+        height: 150vw;
+    }   
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px){
+
+    #image-de-fond {
+        position: absolute;
+        width: 110vw;
+        height: 150vw;
+    }  
+}
+
+@media only screen and (max-device-width: 375px) {
+    
+    #image-de-fond {
+        position: absolute;
+        height: 220vw;
+    }
 }
