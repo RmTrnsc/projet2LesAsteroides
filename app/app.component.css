@@ -1,71 +1,222 @@
-    /*..............title..............*/
+   /*........ button acceuil...... */
+   
+button {
+    text-shadow: 0 -1px #eee;
+    margin: 1em;
+    margin-top: 1em;
+    padding: 4px;
+    background: rgb(180, 175, 175);
+    border: 1px solid #2cabcf;
+    border-radius: 15px;
+    color: #29798f;
+    z-index: 1;
+}
+
+    /* .......title....... */
 
 #title {
-    position: absolute;
-    position: sticky;
     color: rgb(120, 234, 238);
     font-size: 3.5em;
     z-index: 1;
-
 }
 
-    /*............. carousel............ */
+    /*....... category......... */
 
-#carouselExampleFade {
-    width: 50vw;
-    background-color: red;
-}
-
-.carousel-item {
-    width: 100vw;
-    background-color: aqua;
-}
-
-    /*...............categoy..............*/
-
-.title-category {
-    width: 25vw;
-    display: flex;
-    float: right;
-    flex-direction: column;
-    margin-top: 8em;
-}
-
-#title-categoryKuiperBelt > p {
-    color: rgb(120, 234, 238);
+#title-categoryKuiperBelt > a {
+    color: #1f6b81;
     font-size: 2em;
-    float: right;
     text-align: center;
-    margin: 2em;
-    border: 3px solid rgb(120, 234, 238);
+    border: 3px solid #2cabcf;
+    background-color: #ddd;
     border-radius: 40px;
-    width: 15vw;
+    text-decoration: none;
+    padding: 0.2em;
 }
 
-#title-categoryYouKnow > p {
-    color: rgb(120, 234, 238);
+#title-categoryYouKnow > a {
+    color: #1f6b81;
     font-size: 2em;
-    float: right;
     text-align: center;
-    margin: 2em;
-    border: 3px solid rgb(120, 234, 238);
+    border: 3px solid #2cabcf;
+    background-color: #ddd;
     border-radius: 40px;
-    width: 15vw;
+    text-decoration: none;
+    padding: 0.2em;
 }
 
-#title-categoryApprochEarth > p {
-    color: rgb(120, 234, 238);
+#title-categoryApprochEarth > a {
+    color: #1f6b81;
     font-size: 2em;
-    float: right;
     text-align: center;
-    margin: 2em;
-    border: 3px solid rgb(120, 234, 238);
+    border: 3px solid #2cabcf;
+    background-color: #ddd;
     border-radius: 40px;
-    width: 14vw;
+    text-decoration: none;
+    padding: 0.2em;
 }
 
-@media only screen and (max-device-width: 667px) {
+/*........media querie desktop.........*/
+
+@media only screen and (min-device-width: 1025px){
+
+    /*..............title..............*/
+
     #title {
-        font-size: 1.5em;
+        margin: 0 auto;
+        color: rgb(120, 234, 238);
+        font-size: 3.5em;
+        z-index: 1;
+    }
+
+    /*..........title category...........*/
+
+    #title-category {
+        position: relative;
+        float: right;
+        display: flex;
+        margin-top: 1em;
+        margin-bottom: 4em;
+        width: 65vw;
+    }
+
+    /*........hover effect.......*/
+
+    button:hover {
+        background: #ccc;
+        text-shadow: 0 4px #eee;
+    }
+
+    #title-categoryKuiperBelt > a:hover {
+        background: rgb(182, 181, 181);
+        text-shadow: 0 4px #eee;
+    }
+
+    #title-categoryYouKnow > a:hover {
+        background: rgb(182, 181, 181);
+        text-shadow: 0 4px #eee;
+    }
+
+    #title-categoryApprochEarth > a:hover {
+        background: rgb(182, 181, 181);
+        text-shadow: 0 4px #eee;
+    }
+}
+
+    /*.........media querie tablette version.....*/
+
+@media only screen and (min-device-width: 813px) and (max-device-width: 1024px){
+    
+    #title {
+        margin: 0 auto;
+    }
+    #title-category {
+        display: flex;
+        margin-left: 6em;
+    }
+
+    #title-categoryKuiperBelt > a {
+        border: 1px solid ; 
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    #title-categoryYouKnow > a 
+        {border: 1px solid; 
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    #title-categoryApprochEarth > a {
+        border: 1px solid; 
+        border-radius: 25px; 
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+    /*.........media querie landscape mobile version.....*/
+
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) {
+
+    #title {
+        font-size: 35px;
+        margin: 0 auto;
+    }
+
+    #logo-nasa, img{
+        display: none;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    #title-category {
+        margin-top: 1em;
+        display: flex;
+    }
+
+    #title-categoryKuiperBelt > a {
+        border: 1px solid ; 
+        border-radius: 25px;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    #title-categoryYouKnow > a 
+        {border: 1px solid; 
+        border-radius: 25px;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    #title-categoryApprochEarth > a {
+        border: 1px solid; 
+        border-radius: 25px; 
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+
+/*......media queries portrait mobile version.......*/
+
+@media only screen and (max-device-width: 375px) {
+
+    #title {
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    #logo-nasa, img{
+        display: none;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    #title-category {
+        display: flex;
+    }
+
+    #title-categoryKuiperBelt > a {
+        border: 1px solid ; 
+        border-radius: 25px;
+        font-size: 10px;
+    }
+
+    #title-categoryYouKnow > a 
+        {border: 1px solid; 
+        border-radius: 25px;
+        font-size: 10px;
+    }
+
+    #title-categoryApprochEarth > a {
+        border: 1px solid; 
+        border-radius: 25px;
+        font-size: 10px;
     }
 }
