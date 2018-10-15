@@ -1,0 +1,16 @@
+.lorem {
+    width: 80vw;
+    border: 2px solid #2cabcf;
+    background-color: rgba(204, 204, 204, 0.1);
+    border-radius: 40px;
+    padding: 1em;
+    font-size: 22px;
+    color: rgba(199, 120, 46, 1);
+}
+
+@media only screen and (max-device-width: 375px) {
+
+    .lorem {
+        font-size: 14px;
+    }
+}

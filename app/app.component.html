@@ -2,30 +2,30 @@
 
   <div class="container-fluid">
     <div class="row"> 
-      <a id="acceuil"href="#" class="col-lg-1 col-md-1 col-1" >
+      <a  id="acceuil"href="#" class="col-lg-1 col-md-1 col-1" >
         <button>
-        <img src="../assets/nasa-logo.png" alt="logo nasa" width="90vw">Accueil
+        <img routerLink="/Accueil" src="../assets/nasa-logo.png" alt="logo nasa" width="90vw">Accueil
         </button>
       </a>
-      <p class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-4" id="title">{{ title }}</p>        
+      <p class="col-xl-3 col-lg-3 col-md-2 col-sm-4 col-6" id="title">{{ title }}</p>        
     </div>
   </div>
-
 <div class="container">
   <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
       <div id="title-category">
-          <div class="col-xl-4 col-lg-4 col-md-5 col-sm-4 col-4" id="title-categoryKuiperBelt">
-            <a routerLink="Trojan asteroid">Trojan asteroid</a>
+          <div class="col-xl-5 col-lg-3 col-md-5 col-sm-auto col-12" id="title-categoryKuiperBelt">
+            <a routerLink="/Trojan asteroid">Trojan asteroid</a>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" id="title-categoryYouKnow">
-            <a routerLink="You know this?">You know this ?</a>
+          <div class="col-xl-5 col-lg-4 col-md-5 col-sm-auto col-12" id="title-categoryYouKnow">
+            <a routerLink="/You know this?">You know this ?</a>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" id="title-categoryApprochEarth">
-            <a routerLink="Under approach">Under approach</a>
+          <div class="col-xl-5 col-lg-4 col-md-5 col-sm-auto col-12" id="title-categoryApprochEarth">
+            <a routerLink="/Under approach">Daily news</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-<router-outlet></router-outlet>
+  
+  <router-outlet></router-outlet>

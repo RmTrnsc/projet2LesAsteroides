@@ -6,22 +6,26 @@ import { RouterModule } from '@angular/router';
 import { AsteroidterreComponent } from './asteroidterre/asteroidterre.component';
 import { AsteroidceintureComponent } from './asteroidceinture/asteroidceinture.component';
 import { AsteroidconnuComponent } from './asteroidconnu/asteroidconnu.component';
+import { AcceuilComponent } from './acceuil/acceuil.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AsteroidceintureComponent,
     AsteroidterreComponent,
-    AsteroidconnuComponent
+    AsteroidconnuComponent,
+    AcceuilComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(
       [
-        { path: "Trojan asteroid", component: AsteroidceintureComponent },
-        { path: "Under approach", component: AsteroidterreComponent },
-        { path: "You know this?", component: AsteroidconnuComponent }    
+        { path: "Trojan asteroid", component: AsteroidceintureComponent, pathMatch: "full"},
+        { path: "Under approach", component: AsteroidterreComponent, pathMatch: "full" },
+        { path: "You know this?", component: AsteroidconnuComponent, pathMatch: "full" },
+        { path: "Acceuil", component: AcceuilComponent, pathMatch: "full"},
+        { path: '', redirectTo: "Acceuil", pathMatch: "full" }  
       ], 
       
       {useHash: true}

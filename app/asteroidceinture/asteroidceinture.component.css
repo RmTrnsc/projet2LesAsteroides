@@ -1,0 +1,81 @@
+
+
+#asteroid-information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-left: 2em;
+    color: rgb(120, 234, 238);
+    font-size: 3em;
+    color: rgb(199, 120, 46);
+    font-family: 'CosmosNormal';
+}
+
+#asteroid-image {
+    position: relative;
+    margin: 0 auto;
+    width: 28vw;
+    height: 28vw;
+}
+
+#asteroid-info-text {
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/08/20/52/milky-way-1655504_960_720.jpg);
+    margin: 0 auto;
+    border: 2px solid #2cabcf;
+    border-radius: 25px;
+    padding: 0.5em;
+    width: 40vw;
+}
+
+#asteroid-text {
+    color: rgb(199, 120, 46);
+    font-size: 28px;
+    text-align: center;
+}
+
+
+@media only screen and (max-device-width : 375px) {
+
+
+    #title {
+        margin: 0 auto;
+    }    
+
+    #asteroid-image {
+        width: 65vw;
+        height: 45vw;
+    }
+
+    #asteroid-info-text {
+        width: 65vw;
+    }
+
+
+    #asteroid-text {
+        width: 65vw;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width : 376px) and (max-device-width: 812px) {
+ 
+    #title {
+        margin-top: 1em;
+    }
+
+    #asteroid-image {
+        margin-left: 15em;
+        width: 55vw;
+        height: 45vw;
+    }
+
+    #asteroid-text {
+        margin-left: 15em;
+        width: 55vw;
+        font-size: 18px;
+    }
+}

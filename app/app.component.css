@@ -1,5 +1,7 @@
-   /*........ button acceuil...... */
-   
+  
+  
+  /*........ button acceuil...... */
+
 button {
     text-shadow: 0 -1px #eee;
     margin: 1em;
@@ -15,44 +17,47 @@ button {
     /* .......title....... */
 
 #title {
-    color: rgb(120, 234, 238);
-    font-size: 3.5em;
+    color: rgb(199, 120, 46);
+    font-family: 'SpacyRoundRegular';
     z-index: 1;
 }
 
     /*....... category......... */
 
 #title-categoryKuiperBelt > a {
-    color: #1f6b81;
+    color: rgb(199, 120, 46);
     font-size: 2em;
     text-align: center;
     border: 3px solid #2cabcf;
-    background-color: #ddd;
+    background-image: url(/assets/etoile.jpg);
     border-radius: 40px;
     text-decoration: none;
     padding: 0.2em;
+    font-family: 'DataLatin';
 }
 
 #title-categoryYouKnow > a {
-    color: #1f6b81;
+    color: rgb(199, 120, 46);
     font-size: 2em;
     text-align: center;
     border: 3px solid #2cabcf;
-    background-color: #ddd;
+    background-image: url(/assets/etoile.jpg);
     border-radius: 40px;
     text-decoration: none;
     padding: 0.2em;
+    font-family: 'DataLatin';
 }
 
 #title-categoryApprochEarth > a {
-    color: #1f6b81;
+    color: rgb(199, 120, 46);
     font-size: 2em;
     text-align: center;
     border: 3px solid #2cabcf;
-    background-color: #ddd;
+    background-image: url(/assets/etoile.jpg);
     border-radius: 40px;
     text-decoration: none;
     padding: 0.2em;
+    font-family: 'DataLatin';
 }
 
 /*........media querie desktop.........*/
@@ -63,8 +68,8 @@ button {
 
     #title {
         margin: 0 auto;
-        color: rgb(120, 234, 238);
-        font-size: 3.5em;
+        color: rgb(199, 120, 46);
+        font-size: 4em;
         z-index: 1;
     }
 
@@ -72,7 +77,6 @@ button {
 
     #title-category {
         position: relative;
-        float: right;
         display: flex;
         margin-top: 1em;
         margin-bottom: 4em;
@@ -87,20 +91,45 @@ button {
     }
 
     #title-categoryKuiperBelt > a:hover {
-        background: rgb(182, 181, 181);
-        text-shadow: 0 4px #eee;
+        background: rgba(182, 181, 181, 0.2);
+        text-shadow: 0 1px rgb(235, 117, 38);
+    }
+
+    #title-categoryKuiperBelt > a:active {
+        color: red;
     }
 
     #title-categoryYouKnow > a:hover {
-        background: rgb(182, 181, 181);
-        text-shadow: 0 4px #eee;
+        background: rgba(182, 181, 181, 0.2);
+        text-shadow: 0 1px rgb(235, 117, 38);
+    }
+
+    #title-categoryYouKnow > a:active {
+        color: red;
     }
 
     #title-categoryApprochEarth > a:hover {
-        background: rgb(182, 181, 181);
-        text-shadow: 0 4px #eee;
+        background: rgba(182, 181, 181, 0.2);
+        text-shadow: 0 1px rgb(235, 117, 38);
     }
+
+    #title-categoryApprochEarth > a:active {
+        color: red;
+    }
+
+    /* .lorem {
+        margin: 0 auto;
+        width: 40vw;
+        padding: 1em;
+        margin-top: 5em;
+        border: 1px solid black;
+        border-radius: 40px;
+        background: rgba(16, 107, 103, 0.7);
+        color: rgba(235, 117, 38);
+    } */
 }
+
+    
 
     /*.........media querie tablette version.....*/
 
@@ -108,6 +137,7 @@ button {
     
     #title {
         margin: 0 auto;
+        font-size: 3em; 
     }
     #title-category {
         display: flex;
@@ -151,12 +181,11 @@ button {
     }
 
     button {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #title-category {
         margin-top: 1em;
-        display: flex;
     }
 
     #title-categoryKuiperBelt > a {
@@ -187,7 +216,7 @@ button {
 
     #title {
         margin: 0 auto;
-        font-size: 14px;
+        font-size: 28px;
     }
 
     #logo-nasa, img{
@@ -198,25 +227,36 @@ button {
         font-size: 10px;
     }
 
-    #title-category {
-        display: flex;
-    }
-
     #title-categoryKuiperBelt > a {
+        margin: 6.5em;
         border: 1px solid ; 
         border-radius: 25px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
-    #title-categoryYouKnow > a 
-        {border: 1px solid; 
+    #title-categoryKuiperBelt {
+        margin-bottom: 1em;
+    }
+
+    #title-categoryYouKnow > a {
+        margin: 6.5em;
+        border: 1px solid;
         border-radius: 25px;
-        font-size: 10px;
+        font-size: 14px;
+    }
+
+    #title-categoryYouKnow {
+        margin-bottom: 1em;
     }
 
     #title-categoryApprochEarth > a {
+        margin: 7.5em;
         border: 1px solid; 
         border-radius: 25px;
-        font-size: 10px;
+        font-size: 14px;
+    }
+
+    #title-categoryApprochEarth {
+        margin-bottom: 1em;
     }
 }

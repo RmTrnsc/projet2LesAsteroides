@@ -1,16 +1,49 @@
+@font-face {
+    font-family: 'SpacyRoundRegular';
+    src: url('/font/spacy_round/SpacyRound-Regular.eot'); /* IE9 Compat Modes */
+    src: url('/font/spacy_round/SpacyRound-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/font/spacy_round/SpacyRound-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/font/spacy_round/SpacyRound-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/font/spacy_round/SpacyRound-Regular.svg#SpacyRound-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 
+@font-face {
+    font-family: 'DataLatin';
+    src: url('/font/data_control/data-latin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 
+@font-face {
+    font-family: 'CosmosNormal';
+    src: url('/font/cosmos/Cosmos-normal.otf');
+    font-style: weight;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
 
-#image-de-fond {    
+#image-de-fond1 {    
     position: absolute;
-    width: 100vw;
+    width: 99vw;
     height: 71.95vw;
     z-index: -1;
 }
 
+#image-de-fond2 {
+    position: absolute;
+    width: 99vw;
+    height: 71.95vw;
+    z-index: -1;
+    opacity: 0.2;
+}
+
 @media only scren and (min-device-width: 813px) and (max-device-width: 1024px){
 
-    #image-de-fond {
+    #image-de-fond1 {
         position: absolute;
         width: 180vw;
         height: 150vw;
@@ -19,16 +52,16 @@
 
 @media only screen and (min-device-width: 376px) and (max-device-width: 812px){
 
-    #image-de-fond {
+    #image-de-fond1 {
         position: absolute;
-        width: 110vw;
-        height: 150vw;
+        width: 115vw;
+        height: 160vw;
     }  
 }
 
 @media only screen and (max-device-width: 375px) {
     
-    #image-de-fond {
+    #image-de-fond1 {
         position: absolute;
         height: 220vw;
     }
