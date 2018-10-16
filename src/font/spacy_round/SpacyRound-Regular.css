@@ -1,0 +1,12 @@
+/* Webfont: SpacyRound-Regular */@font-face {
+    font-family: 'SpacyRoundRegular';
+    src: url('SpacyRound-Regular.eot'); /* IE9 Compat Modes */
+    src: url('SpacyRound-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SpacyRound-Regular.woff') format('woff'), /* Modern Browsers */
+         url('SpacyRound-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('SpacyRound-Regular.svg#SpacyRound-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
