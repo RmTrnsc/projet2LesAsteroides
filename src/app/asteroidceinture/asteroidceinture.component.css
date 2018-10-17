@@ -1,5 +1,6 @@
 
 
+
 #asteroid-information {
     position: relative;
     display: flex;
@@ -30,6 +31,8 @@
     text-align: center;
 }
 
+/*---------------------------------------- CAROUSEL MOBILE/TABLETTE VERSION------------------------------------------------ */
+
 /*-------------------- media query desktop ------------------*/
 
 @media only screen and (min-device-width: 1025px) {
@@ -42,6 +45,10 @@
 /*------------- media query tablette version ---------*/
 
 @media only screen and (min-device-width : 768px) and (max-device-width: 1024px) {
+
+    #carousel {
+        display: none;
+    }
  
     #title {
         font-size: 6em;
@@ -74,6 +81,9 @@
 
 @media only screen and (max-device-width : 375px) {
 
+    #carousel {
+        display: none;
+    }
 
     #title {
         margin: 0 auto;
@@ -99,6 +109,10 @@
 /*------------- media query landscape mobile version ---------*/
 
 @media only screen and (min-device-width : 376px) and (max-device-width: 667px) {
+
+    #carousel {
+        display: none;
+    }
  
     #title {
         margin-top: 1em;
@@ -125,5 +139,132 @@
         margin: 0 auto;
         width: 55vw;
         font-size: 22px;
+    }
+}
+
+/*-------------------------------------------- CAROUSEL DESKTOP VERSION---------------------------------------------- */
+
+@media only screen and (min-device-width: 1024px){
+
+    *{
+        box-sizing: border-box;
+    }
+
+    #name-lutetia {
+        padding-top: 18%;
+    }
+
+    .carousel {
+        margin-top: 16em;
+    }
+
+    .name-item-carousel {
+        text-align: center;
+        margin-top: -50%;
+        color: #00bcd4;
+        font-weight: bold;
+        font-size: 1.5em;
+    
+    }
+
+        /**********************************INFOS********************************/
+
+    .carousel-info-asteroid-connu {
+        width: 25em;
+        height: 20em;
+        position: relative;
+        margin-top: 25%;  
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        perspective: 400em;
+        transform-style: preserve-3d;
+        
+    }
+
+    .carousel-info-asteroid-connu .item2 {
+        width: 100%;
+        height: 100%;
+        position: absolute; 
+        transition: transform 1s;
+        text-align: center;
+        background: rgb(12, 66, 77);
+        color: rgba(156, 82, 12);
+        border: solid 1px black;
+        border-radius: 10px;
+        padding: 0.5em;
+        font-size: 22px;
+    }
+
+
+    /*********************************CAROUSEL*******************************/
+
+    .carousel {
+        width: 25em;
+        height: 28em;
+        position: relative; 
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        perspective: 500em;
+        transform-style: preserve-3d;
+        z-index: 1;
+    }
+
+    .carousel .item {
+        width: 100%;
+        height: 100%;
+        position: absolute; 
+        transition: transform 1s;
+    }
+
+    /********************************************************************************/
+
+
+    .item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .item #lutetia {
+        padding-top: 20%;
+        width: 80%;
+        height: 80%;
+    }
+
+    /****************************BOUTON**************************/
+
+    #button-left-carousel {
+        border: none;
+        position: relative;
+        margin-left: 18.35%;
+        background: rgba(0, 0, 0, 0); 
+        outline-style: none;
+    }
+
+    #button-right-carousel {
+        border: none; 
+        position: relative;
+        margin-left: 55.9%; 
+        background: rgba(0, 0, 0, 0); 
+        outline-style: none;
+    }
+
+    .button-aste {
+        position: relative;
+        z-index: 2;
+        margin-top: -52%;
+        padding-left: 1%;
+    }
+
+    #button-right-carousel {
+        margin-left: 50.4%;
+        
+    }
+
+    #button-left-carousel {
+        padding-left: 3.1%;
+    }
+
+    #carousel-asteroid {
+        height: 3em;
     }
 }
