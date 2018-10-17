@@ -14,14 +14,7 @@
     font-family: 'CosmosNormal';
 }
 
-#asteroid-image {
-    position: relative;
-    margin: 0 auto;
-    width: 28vw;
-    height: 28vw;
-}
-
-#asteroid-info-text {
+#carouselSmartphoneTabletteText {
     position: relative;
     background-image: url(/assets/fond-etoile.jpg);
     margin: 0 auto;
@@ -31,12 +24,53 @@
     width: 40vw;
 }
 
-#asteroid-text {
+.asteroid-text {
     color: rgb(199, 120, 46);
     font-size: 28px;
     text-align: center;
 }
 
+/*-------------------- media query desktop ------------------*/
+
+@media only screen and (min-device-width: 1025px) {
+
+    #carouselSmartphoneTablette {
+        display: none;
+    }
+}
+
+/*------------- media query tablette version ---------*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width: 1024px) {
+ 
+    #title {
+        font-size: 6em;
+        margin-top: 0.5em;
+    }
+
+    #carouselSmartphoneTablette {
+        margin-left: 10em;
+    }
+
+    #carouselSmartphoneTabletteText {
+        margin-left: 5em;
+        width: 80vw;
+    }
+
+    #carouselSmartphoneTabletteImage {
+        margin-left: 5em;
+        width: 80vw;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+
+    .asteroid-text {
+        width: 80vw;
+        font-size: 40px;
+    }
+}
+
+/*------------- media query portrait mobile version ---------*/
 
 @media only screen and (max-device-width : 375px) {
 
@@ -45,37 +79,51 @@
         margin: 0 auto;
     }    
 
-    #asteroid-image {
-        width: 65vw;
-        height: 45vw;
+    #carouselSmartphoneTabletteText {
+        width: 70vw;
     }
 
-    #asteroid-info-text {
-        width: 65vw;
+    #carouselSmartphoneTabletteImage {
+        margin: 0 auto;
+        width: 55vw;
+        margin-top: 2em;
+        margin-bottom: 3em;
     }
 
-
-    #asteroid-text {
+    .asteroid-text {
         width: 65vw;
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
-@media only screen and (min-device-width : 376px) and (max-device-width: 812px) {
+/*------------- media query landscape mobile version ---------*/
+
+@media only screen and (min-device-width : 376px) and (max-device-width: 667px) {
  
     #title {
         margin-top: 1em;
+        font-size: 4em;
     }
 
-    #asteroid-image {
-        margin-left: 15em;
-        width: 55vw;
-        height: 45vw;
+    #carouselSmartphoneTablette {
+        margin-left: 10em;
     }
 
-    #asteroid-text {
-        margin-left: 15em;
+    #carouselSmartphoneTabletteText {
+        margin-left: 7em;
+        width: 70vw;
+    }
+
+    #carouselSmartphoneTabletteImage {
+        margin-left: 9.5em;
         width: 55vw;
-        font-size: 18px;
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+
+    .asteroid-text {
+        margin: 0 auto;
+        width: 55vw;
+        font-size: 22px;
     }
 }
