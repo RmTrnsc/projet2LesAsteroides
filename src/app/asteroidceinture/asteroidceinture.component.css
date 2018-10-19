@@ -9,8 +9,7 @@
 
 #title {
     margin-left: 2em;
-    color: rgb(120, 234, 238);
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(199, 120, 46);
     font-family: 'CosmosNormal';
 }
@@ -87,6 +86,7 @@
 
     #title {
         margin: 0 auto;
+        font-size: 3em;
     }    
 
     #carouselSmartphoneTabletteText {
@@ -148,6 +148,10 @@
 
     *{
         box-sizing: border-box;
+    }
+
+    #carouselSmartphoneTablette {
+        display: none;
     }
 
     #name-lutetia {
