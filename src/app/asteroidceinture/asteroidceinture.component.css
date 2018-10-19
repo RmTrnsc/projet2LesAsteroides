@@ -1,6 +1,4 @@
 
-
-
 #asteroid-information {
     position: relative;
     display: flex;
@@ -144,7 +142,7 @@
 
 /*-------------------------------------------- CAROUSEL DESKTOP VERSION---------------------------------------------- */
 
-@media only screen and (min-device-width: 1024px){
+@media only screen and (min-device-width: 1025px){
 
     *{
         box-sizing: border-box;
@@ -155,7 +153,7 @@
     }
 
     #name-lutetia {
-        padding-top: 18%;
+        display: none;
     }
 
     .carousel {
@@ -163,17 +161,16 @@
     }
 
     .name-item-carousel {
+        background-color: rgba(0, 0, 0, 0.4);
         text-align: center;
-        margin-top: -50%;
-        color: #00bcd4;
+        color: #f8aa75;
         font-weight: bold;
         font-size: 1.5em;
-    
     }
 
         /**********************************INFOS********************************/
 
-    .carousel-info-asteroid-connu {
+    #info-asteroid-connu {
         width: 25em;
         height: 20em;
         position: relative;
@@ -185,15 +182,13 @@
         
     }
 
-    .carousel-info-asteroid-connu .item2 {
+    .item2 {
         width: 100%;
         height: 100%;
-        position: absolute; 
-        transition: transform 1s;
         text-align: center;
-        background: rgb(12, 66, 77);
-        color: rgba(156, 82, 12);
-        border: solid 1px black;
+        background-image: url(/assets/fond-etoile.jpg);
+        color: rgb(252, 211, 79);
+        border: 2px solid #2cabcf;
         border-radius: 10px;
         padding: 0.5em;
         font-size: 22px;
@@ -226,12 +221,6 @@
     .item img {
         width: 100%;
         height: 100%;
-    }
-
-    .item #lutetia {
-        padding-top: 20%;
-        width: 80%;
-        height: 80%;
     }
 
     /****************************BOUTON**************************/

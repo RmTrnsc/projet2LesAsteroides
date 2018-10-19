@@ -7,7 +7,7 @@ import { Component, OnInit, } from '@angular/core';
 })
 export class AsteroidceintureComponent implements OnInit {
 
-  items; 
+    items; 
     length; 
     deg; 
     zI; 
@@ -15,60 +15,40 @@ export class AsteroidceintureComponent implements OnInit {
     obj;
     yI; 
     moove = 0;
-
-    constructor(){
-        window.addEventListener('DOMContentLoaded', this.DOMContentLoaded);
-        window.addEventListener('load', this.load);
-    }
-
-
-    turn(direction) {
-
-        this.moove += direction;
-
-        for (let j = 0; j < length; j++) {
-            this.obj[j].style.transform = "rotateY(" + (this.deg * (j + this.moove)) + "deg) translateZ(" + this.yI + "px)";
-        }
-    }
-
-    DOMContentLoaded() {
-        this.items = document.getElementsByClassName('item');
-
-            length = this.items.length;
-
-        this.deg = 360 / length;
-
-            this.zI = (this.items[0].offsetWidth / 2) / Math.tan((this.deg / 2) * (Math.PI / 180))
-
-        for (let i = 0; i < length; i++) {
-            this.items[i].style.transform = "rotateY(" + (this.deg * i) + "deg) translateZ(" + this.zI + "px)";
-        }
-    }
-
     
+    constructor(){
+        
+        window.addEventListener('load', this.asteroids);
+    }
 
 
-    rotate(direction:any) {
-        this.move += direction;
+//------------------------------------------------|||||-ASTEROIDS-|||||-------------------------------------------------
+// --------------------------------------Function in order to do turn asteroids-----------------------------------------
 
-            for (let i = 0; i < length; i++) {
-                this.items[i].style.transform = "rotateY(" + (this.deg * (i + this.move)) + "deg) translateZ(" + this.zI + "px)";
+    turn(orientation:any) {  
+
+        this.obj = document.getElementsByClassName('item');
+        length = this.obj.length;
+        this.deg = 360 / length;
+        this.zI = (this.obj[0].offsetWidth / 2) / Math.tan((this.deg / 2) * (Math.PI / 180));
+        this.moove += orientation;
+         
+        for (let j = 0; j < length; j++) { 
+            this.obj[j].style.transform = "rotateY(" + (this.deg * (j + this.moove)) + "deg) translateZ(" + this.zI + "px)";   
         }
     }
 
-    load() {
+// --------------------------------Function in order to do a 3D effect on asteroids-------------------------------------
 
-        this.obj = document.getElementsByClassName('item2');
-
-            length = this.obj.length;
-
+    asteroids() {
+        this.obj = document.getElementsByClassName('item');
+        length = this.obj.length;
         this.deg = 360 / length;
+        this.zI = (this.obj[0].offsetWidth / 2) / Math.tan((this.deg / 2) * (Math.PI / 180));
 
-            this.yI = (this.obj[0].offsetWidth / 2) / Math.tan((this.deg / 2) * (Math.PI / 180))
-
-        for (let j = 0; j < length; j++) {
-            this.obj[j].style.transform = "rotateY(" + (this.deg * j) + "deg) translateZ(" + this.yI + "px)";
-        }
+        for (let k = 0; k < length; k++) {
+            this.obj[k].style.transform = "rotateY(" + (this.deg * k) + "deg) translateZ(" + this.zI + "px)";
+        }   
     }
 
     ngOnInit(){
