@@ -71,13 +71,13 @@ body{
     #image-de-fond1 {
         position: absolute;
         width: 149vw;
-        height: 140vw;
+        height: 180vw;
     }  
 
     #image-de-fond2 {
         position: absolute;
         width: 149vw;
-        height: 140vw;
+        height: 180vw;
         z-index: -1;
         opacity: 0.3;
     }
@@ -89,12 +89,12 @@ body{
     
     #image-de-fond1 {
         position: absolute;
-        height: 230vw;
+        height: 280vw;
     }
 
     #image-de-fond2 {
         position: absolute;
-        height: 230vw;
+        height: 280vw;
         z-index: -1;
         opacity: 0.3;
     }

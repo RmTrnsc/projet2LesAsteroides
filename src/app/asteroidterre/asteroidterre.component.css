@@ -1,5 +1,107 @@
-p {
-    color: red;
-    font-size: 15em;
-    margin-left: 150px;
+/**--------- media query desktop version ----------*/
+
+@media only screen and (min-device-width: 1025px){
+  
+  .nasa-information {
+        display: flex;
+        padding: 1em;
+        margin-left: 18em;
+        margin-top: 3em;
+    }
+
+    .text-information {
+        align-content: space-between;
+        margin-right: 1.5em;
+        color: rgb(252, 211, 79);
+        border: 1px solid #2cabcf;
+        background-image: url(/assets/fond-etoile.jpg);
+        border-radius: 25px;
+        padding: 1em;
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+/*------------- media query tablette version ---------*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width: 1024px){
+
+    .nasa-information {
+        display: flex;
+        padding: 1em;
+        margin-left: 18em;
+        margin-top: 3em;
+    }
+
+    .text-information {
+        font-size: 20px;
+        align-content: space-between;
+        margin-right: 10px;
+        color: rgb(252, 211, 79);
+        border: 1px solid #2cabcf;
+        background-image: url(/assets/fond-etoile.jpg);
+        border-radius: 25px;
+        padding: 1em;
+        width: 60vw;
+        height: 55vw;
+    }
+}
+
+/*------------- media query portrait mobile version ---------*/
+
+@media only screen and (max-device-width : 375px){
+
+    #second-part {
+        display: none;
+    }
+
+    .nasa-information {
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    .text-information {
+        font-size: 20px;
+        align-content: space-between;
+        margin-right: 10px;
+        color: rgb(252, 211, 79);
+        border: 1px solid #2cabcf;
+        background-image: url(/assets/fond-etoile.jpg);
+        border-radius: 25px;
+        padding: 1em;
+        width: 70vw;
+        height: 60vw;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+}
+
+/*------------- media query landscape mobile version ---------*/
+
+@media only screen and (min-device-width : 376px) and (max-device-width: 667px){
+
+    #second-part {
+        display: none;
+    }
+
+    .nasa-information {
+        margin-left: 17em;
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    .text-information {
+        font-size: 20px;
+        align-content: space-between;
+        margin-right: 10px;
+        color: rgb(252, 211, 79);
+        border: 1px solid #2cabcf;
+        background-image: url(/assets/fond-etoile.jpg);
+        border-radius: 25px;
+        padding: 1em;
+        width: 60vw;
+        height: 40vw;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
 }
