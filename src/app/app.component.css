@@ -1,27 +1,28 @@
-
   
-  /*........ button acceuil...... */
+  /*........ top bar...... */
 
+#topBar {
+    display: flex;
+}
 button {
     text-shadow: 0 -1px #eee;
-    margin: 1em;
-    margin-top: 1em;
+    margin: 0.5em;
+    margin-top: 0.5em;
     padding: 4px;
     background: rgb(180, 175, 175);
     border: 1px solid #2cabcf;
     border-radius: 15px;
     color: #29798f;
-    z-index: 1;
 }
-
+#logo-nasa {
+    margin: 0.5em;
+}
     /* .......title....... */
 
 #title {
     color: rgb(199, 120, 46);
     font-family: 'SpacyRoundRegular';
-    z-index: 1;
 }
-
     /*....... category......... */
 
 #title-categoryKuiperBelt > a {
@@ -32,10 +33,9 @@ button {
     background-image: url(/assets/etoile.jpg);
     border-radius: 40px;
     text-decoration: none;
-    padding: 0.2em;
+    padding: 0.5em;
     font-family: 'DataLatin';
 }
-
 #title-categoryYouKnow > a {
     color: rgb(199, 120, 46);
     font-size: 2em;
@@ -44,10 +44,9 @@ button {
     background-image: url(/assets/etoile.jpg);
     border-radius: 40px;
     text-decoration: none;
-    padding: 0.2em;
+    padding: 0.5em;
     font-family: 'DataLatin';
 }
-
 #title-categoryApprochEarth > a {
     color: rgb(199, 120, 46);
     font-size: 2em;
@@ -56,31 +55,30 @@ button {
     background-image: url(/assets/etoile.jpg);
     border-radius: 40px;
     text-decoration: none;
-    padding: 0.2em;
+    padding: 0.5em;
     font-family: 'DataLatin';
 }
-
 
 /*........media querie desktop.........*/
 
 @media only screen and (min-device-width: 1025px){
-
+    
     /*..............title..............*/
 
     #title {
         margin: 0 auto;
         color: rgb(199, 120, 46);
-        font-size: 4em;
+        font-size: 5em;
     }
 
     /*..........title category...........*/
 
     #title-category {
-        position: relative;
         display: flex;
-        margin-top: 1em;
-        margin-bottom: 4em;
-        width: 65vw;
+        justify-content: space-evenly;
+        margin-right: 6em;
+        margin-top: 2em;
+        margin-bottom: 5em;
     }
 
     /*........hover effect.......*/
@@ -90,14 +88,17 @@ button {
         text-shadow: 0 4px #eee;
     }
 
-    #title-categoryKuiperBelt > a:hover {
+    #title-categoryKuiperBelt:hover{
+        transform: rotateY(90deg);
+    }
+    /* #title-categoryKuiperBelt > a:hover {
         background: rgba(182, 181, 181, 0.2);
         text-shadow: 0 1px rgb(235, 117, 38);
-    }
+    } */
 
-    #title-categoryKuiperBelt > a:active {
+    /* #title-categoryKuiperBelt > a:active {
         color: red;
-    }
+    } */
 
     #title-categoryYouKnow > a:hover {
         background: rgba(182, 181, 181, 0.2);

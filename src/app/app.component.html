@@ -1,31 +1,20 @@
-<!--The content below is only a placeholder and can be replaced.-->
-
-  <div class="container-fluid">
-    <div class="row"> 
-        <a  id="acceuil"href="#" class="col-lg-1 col-md-1 col-sm-1 col-1" >
-          <button>
-          <img routerLink="/Accueil" src="../assets/nasa-logo.png" alt="logo nasa" width="90vw">Accueil
-          </button>
-        </a>
-        <p class="col-xl-3 offset-lg-5 col-md-6 offset-sm-5 col-6" id="title">{{ title }}</p>        
-    </div>
+<div id="topBar">
+  <a  id="acceuil"href="#">
+    <button routerLink="/Accueil">Accueil</button>
+  </a>
+  <p id="title">{{ title }}</p>    
+  <a href="https://www.nasa.gov/" target="_blank"><img id="logo-nasa" src="../assets/nasa-logo.png" alt="logo nasa" width="90vw" height="80vw"></a>
+</div>
+<div id="title-category">
+  <div id="title-categoryKuiperBelt">
+    <a routerLink="/Trojan asteroid">Trojan asteroid</a>
   </div>
-<div class="container">
-  <div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-      <div id="title-category">
-          <div class="col-xl-5 col-lg-6 col-md-6 col-sm-7 col-12" id="title-categoryKuiperBelt">
-            <a routerLink="/Trojan asteroid">Trojan asteroid</a>
-          </div>
-          <div class="col-xl-5 col-lg-6 col-md-6 col-sm-7 col-12" id="title-categoryYouKnow">
-            <a routerLink="/You know this?">You know this ?</a>
-          </div>
-          <div class="col-xl-5 col-lg-6 col-md-6 col-sm-7 col-12" id="title-categoryApprochEarth">
-            <a routerLink="/Under approach">Daily news</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div id="title-categoryYouKnow">
+    <a routerLink="/You know this?">You know this ?</a>
   </div>
+  <div id="title-categoryApprochEarth">
+    <a routerLink="/Under approach">Daily news</a>
+  </div>
+</div>
   
   <router-outlet></router-outlet>
