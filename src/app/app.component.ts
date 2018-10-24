@@ -1,6 +1,11 @@
-import { Component } from '@angular/core';
-import { RecuperationInfosService } from './recuperation-infos.service';
+import { Component, NgModule } from '@angular/core';
+import { app } from './app';
 
+@NgModule({
+  imports:[
+    app
+  ]
+})
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

@@ -7,23 +7,22 @@
 
 #title {
     margin-left: 2em;
-    font-size: 4em;
+    font-size: 5em;
     color: rgb(199, 120, 46);
     font-family: 'CosmosNormal';
 }
 
 #carouselSmartphoneTabletteText {
     position: relative;
-    background-image: url(/assets/fond-etoile.jpg);
+    background-image: url(/assets/fond-etoile1.png);
     margin: 0 auto;
     border: 2px solid #2cabcf;
-    border-radius: 25px;
     padding: 0.5em;
     width: 40vw;
 }
 
 .asteroid-text {
-    color: rgb(199, 120, 46);
+    color: rgb(255, 255, 255);
     font-size: 28px;
     text-align: center;
 }
@@ -57,20 +56,32 @@
     }
 
     #carouselSmartphoneTabletteText {
-        margin-left: 5em;
-        width: 80vw;
+        margin-left: 10%;
+        width: 95vw;
+        border-radius: 20px;
     }
 
     #carouselSmartphoneTabletteImage {
-        margin-left: 5em;
-        width: 80vw;
+        margin-left: 30%;
+        width: 60vw;
         margin-top: 2em;
         margin-bottom: 3em;
     }
-
+    .carousel-item p{
+        margin: 0 auto;
+        width: 50vw;
+        height: 8vw;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'CosmosNormal';
+        background-color: rgb(0, 0, 0);
+        color: rgb(252, 211, 79);
+    }
     .asteroid-text {
-        width: 80vw;
-        font-size: 40px;
+        padding: 0.4em;
+        font-size: 80px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
     }
 }
 
@@ -89,6 +100,8 @@
 
     #carouselSmartphoneTabletteText {
         width: 70vw;
+        z-index: 1;
+        border-radius: 15px;
     }
 
     #carouselSmartphoneTabletteImage {
@@ -96,11 +109,23 @@
         width: 55vw;
         margin-top: 2em;
         margin-bottom: 3em;
+        z-index: -1;
     }
-
+    .carousel-item p{
+        margin: 0 auto;
+        width: 50vw;
+        height: auto;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.6);
+        color: rgb(252, 211, 79);
+    }
     .asteroid-text {
-        width: 65vw;
-        font-size: 18px;
+        padding: 0.2em;
+        font-size: 30px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
     }
 }
 
@@ -122,8 +147,9 @@
     }
 
     #carouselSmartphoneTabletteText {
-        margin-left: 7em;
-        width: 70vw;
+        margin-left: 1em;
+        width: 95vw;
+        border-radius: 15px;
     }
 
     #carouselSmartphoneTabletteImage {
@@ -132,11 +158,21 @@
         margin-top: 1em;
         margin-bottom: 3em;
     }
-
-    .asteroid-text {
+    .carousel-item p{
         margin: 0 auto;
-        width: 55vw;
-        font-size: 22px;
+        width: 50vw;
+        height: auto;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.6);
+        color: rgb(252, 211, 79);
+    }
+    .asteroid-text {
+        font-size: 50px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
+        padding: 0.2em;
     }
 }
 
@@ -152,46 +188,41 @@
         display: none;
     }
 
-    #name-lutetia {
-        display: none;
-    }
-
     .carousel {
         margin-top: 16em;
     }
 
     .name-item-carousel {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
-        color: #f8aa75;
+        color: rgb(252, 211, 79);
+        font-family: 'CosmosNormal';
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
         /**********************************INFOS********************************/
 
     #info-asteroid-connu {
-        width: 25em;
+        width: 80em;
         height: 20em;
         position: relative;
-        margin-top: 25%;  
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        perspective: 400em;
-        transform-style: preserve-3d;
-        
+        margin: 0 auto; 
+        top: 250px;  
     }
 
     .item2 {
         width: 100%;
-        height: 100%;
+        height: auto;
         text-align: center;
-        background-image: url(/assets/fond-etoile.jpg);
-        color: rgb(252, 211, 79);
+        background-image: url(/assets/fond-etoile1.png);
+        color: rgb(255, 255, 255);
         border: 2px solid #2cabcf;
         border-radius: 10px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
         padding: 0.5em;
-        font-size: 22px;
+        font-size: 40px;
     }
 
 
@@ -221,43 +252,35 @@
     .item img {
         width: 100%;
         height: 100%;
+        margin-bottom: 1em;
     }
 
     /****************************BOUTON**************************/
 
     #button-left-carousel {
         border: none;
-        position: relative;
-        margin-left: 18.35%;
         background: rgba(0, 0, 0, 0); 
         outline-style: none;
+        height: 25vw;
     }
 
     #button-right-carousel {
         border: none; 
-        position: relative;
-        margin-left: 55.9%; 
-        background: rgba(0, 0, 0, 0); 
+        background: rgba(0, 0, 0, 0);
         outline-style: none;
+        margin-left: 22.5em;
+        height: 25vw;
     }
 
     .button-aste {
-        position: relative;
+        position: absolute;
+        top: 17.7em;
+        left: 20em;
         z-index: 2;
-        margin-top: -52%;
-        padding-left: 1%;
-    }
-
-    #button-right-carousel {
-        margin-left: 50.4%;
-        
-    }
-
-    #button-left-carousel {
-        padding-left: 3.1%;
     }
 
     #carousel-asteroid {
-        height: 3em;
+        height: 6em;
+        
     }
 }

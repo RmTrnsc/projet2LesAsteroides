@@ -9,6 +9,10 @@ import { AsteroidceintureComponent } from './asteroidceinture/asteroidceinture.c
 import { AsteroidconnuComponent } from './asteroidconnu/asteroidconnu.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { RecuperationInfosService } from './recuperation-infos.service'
+import { RecuperationDescriptionService } from './recuperation-description.service';
+import { RecuperationTitleService } from './recuperation-title.service';
+
+
 
 
 @NgModule({
@@ -35,7 +39,7 @@ import { RecuperationInfosService } from './recuperation-infos.service'
       {useHash: true}
     )
   ],
-  providers: [RecuperationInfosService],
+  providers: [RecuperationInfosService, RecuperationDescriptionService, RecuperationTitleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
