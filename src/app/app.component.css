@@ -1,18 +1,24 @@
-  
+li {
+    list-style: none;
+}
   /*........ top bar...... */
 
 #topBar {
     display: flex;
 }
 button {
-    text-shadow: 0 -1px #eee;
-    margin: 0.5em;
-    margin-top: 0.5em;
-    padding: 4px;
-    background: rgb(180, 175, 175);
-    border: 1px solid #2cabcf;
+    margin: 10px 10px;
     border-radius: 15px;
-    color: #29798f;
+    background-color: rgb(35, 36, 35);
+    outline-style: none;
+    transition: 0.7s;
+}
+button p {
+    position: absolute;
+    top: 15px;
+    left: 32px;
+    color: rgb(199, 120, 46);
+    opacity: 0;
 }
 #logo-nasa {
     margin: 0.5em;
@@ -23,46 +29,18 @@ button {
     color: rgb(199, 120, 46);
     font-family: 'SpacyRoundRegular';
 }
-    /*....... category......... */
-
-#title-categoryKuiperBelt > a {
-    color: rgb(199, 120, 46);
-    font-size: 2em;
-    text-align: center;
-    border: 3px solid #2cabcf;
-    background-image: url(/assets/etoile.jpg);
-    border-radius: 40px;
-    text-decoration: none;
-    padding: 0.5em;
-    font-family: 'DataLatin';
-}
-#title-categoryYouKnow > a {
-    color: rgb(199, 120, 46);
-    font-size: 2em;
-    text-align: center;
-    border: 3px solid #2cabcf;
-    background-image: url(/assets/etoile.jpg);
-    border-radius: 40px;
-    text-decoration: none;
-    padding: 0.5em;
-    font-family: 'DataLatin';
-}
-#title-categoryApprochEarth > a {
-    color: rgb(199, 120, 46);
-    font-size: 2em;
-    text-align: center;
-    border: 3px solid #2cabcf;
-    background-image: url(/assets/etoile.jpg);
-    border-radius: 40px;
-    text-decoration: none;
-    padding: 0.5em;
-    font-family: 'DataLatin';
+#acceuilMenuBurger {
+    visibility: hidden;
 }
 
 /*........media querie desktop.........*/
 
 @media only screen and (min-device-width: 1025px){
-    
+
+    .btn-navigation {
+        display: none;
+    }
+
     /*..............title..............*/
 
     #title {
@@ -70,195 +48,311 @@ button {
         color: rgb(199, 120, 46);
         font-size: 5em;
     }
-
     /*..........title category...........*/
 
     #title-category {
         display: flex;
-        justify-content: space-evenly;
-        margin-right: 6em;
+        margin-left: 17%;
         margin-top: 2em;
         margin-bottom: 5em;
     }
+        /*....... category......... */
 
+    #title-categoryKuiperBelt > a {
+        color: rgb(199, 120, 46);
+        font-size: 2em;
+        text-align: center;
+        border: 3px solid #2cabcf;
+        background-image: url(/assets/etoile.jpg);
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 0.5em;
+        font-family: 'DataLatin';
+        transition: 0.7s;
+        margin-right: 2em;
+    }
+    #title-categoryYouKnow > a {
+        color: rgb(199, 120, 46);
+        font-size: 2em;
+        text-align: center;
+        border: 3px solid #2cabcf;
+        background-image: url(/assets/etoile.jpg);
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 0.5em;
+        font-family: 'DataLatin';
+        transition: 0.7s;
+        margin-right: 2em;
+    }
+    #title-categoryApprochEarth > a {
+        color: rgb(199, 120, 46);
+        font-size: 2em;
+        text-align: center;
+        border: 3px solid #2cabcf;
+        background-image: url(/assets/etoile.jpg);
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 0.5em;
+        font-family: 'DataLatin';
+        transition: 0.7s;
+    }
     /*........hover effect.......*/
 
-    button:hover {
-        background: #ccc;
-        text-shadow: 0 4px #eee;
+    button:hover img{
+        opacity: 0.4;
+        transition: 0.4s;
     }
-
-    #title-categoryKuiperBelt:hover{
-        transform: rotateY(90deg);
+    button:hover p {
+        opacity: 1;
+        transition: 0.6s;
     }
-    /* #title-categoryKuiperBelt > a:hover {
+    #title-categoryKuiperBelt > a:hover {
         background: rgba(182, 181, 181, 0.2);
         text-shadow: 0 1px rgb(235, 117, 38);
-    } */
-
-    /* #title-categoryKuiperBelt > a:active {
+        transition: 0.5s;
+    }
+    #title-categoryKuiperBelt > a:active {
         color: red;
-    } */
-
+        transition: 0.1s;
+    }
     #title-categoryYouKnow > a:hover {
         background: rgba(182, 181, 181, 0.2);
         text-shadow: 0 1px rgb(235, 117, 38);
+        transition: 0.5s;
     }
 
     #title-categoryYouKnow > a:active {
         color: red;
+        transition: 0.1s;
     }
-
     #title-categoryApprochEarth > a:hover {
         background: rgba(182, 181, 181, 0.2);
         text-shadow: 0 1px rgb(235, 117, 38);
+        transition: 0.5s;
     }
-
     #title-categoryApprochEarth > a:active {
         color: red;
-    }
-    
-    #textAnnonceOnTablet {
-        display: none;
+        transition: 0.1s;
     }
 }
-
-
-    
-
     /*.........media querie tablette version.....*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
-    
+
+    .btn-navigation {
+        display: none;
+    }
+    #logo-nasa {
+        position: absolute;
+        left: 120%;
+    }
     #title {
-        font-size: 5em;
+        margin-left: 35%;
+        font-size: 6em;
+    }
+    button {
+        font-size: 28px;
     }
     #title-category {
-        margin-left: 4em;
-        display: flex;
+        width: 100vw;
+        display:flex;
+        margin-left: 30%;
     }
-
-    #title-categoryKuiperBelt > a {
+    #title-categoryKuiperBelt > a, #title-categoryYouKnow > a {
         border: 1px solid ; 
         border-radius: 25px;
-        font-size: 35px;
-        padding: 0.3em;
+        font-size: 28px;
+        padding: 0.4em;
+        margin-right: 0.5em;
+        color: rgb(199, 120, 46);
+        text-align: center;
+        border: 1px solid #2cabcf;
+        text-decoration: none;
+        font-family: 'DataLatin';
+        background-image: url(/assets/etoile.jpg);
+        
     }
-
-    #title-categoryYouKnow > a 
-        {border: 1px solid; 
-        border-radius: 25px;
-        font-size: 35px;
-        padding: 0.3em;
-    }
-
     #title-categoryApprochEarth > a {
-        border: 1px solid; 
-        border-radius: 25px; 
-        font-size: 35px;
-        padding: 0.3em;
-    }
+        border: 1px solid ; 
+        border-radius: 25px;
+        font-size: 28px;
+        padding: 0.4em;
+        color: rgb(199, 120, 46);
+        text-align: center;
+        border: 1px solid #2cabcf;
+        text-decoration: none;
+        font-family: 'DataLatin';
+        background-image: url(/assets/etoile.jpg);
+    }      
 }
 
     /*.........media querie landscape mobile version.....*/
 
-
 @media only screen and (min-device-width: 376px) and (max-device-width: 667px) {
 
-    #title {
-        font-size: 40px;
+    /*....... menu burger ....... */
+
+    .btn-navigation {
+        position: absolute;
+        position: fixed;
+        left: 58em;
+        top: 8px;
+        z-index: 30;
+    }
+    .btn-navigation .barre {
+        width: 30px;
+        height: 2px;
+        background: rgb(199, 120, 46);
+        margin-top: 5px;
+        z-index: 20;
+    }
+    .navigation {
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 0 4px;
+        background: rgb(31, 30, 30);
+        width: 30%;
+        height: 100%;
+        z-index: 20;
+
+        transition: transform 1s ease-in-out;
+        -webkit-transition: transform 1s ease-in-out;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    .navigation.isOpen {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        z-index: 20;
+    }
+    .navigation ul {
+        position: absolute;
+        top: 50%;
+        z-index: 20;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .navigation ul li {
+        margin: 50px 0;
+        z-index: 20;
+    }
+    .navigation ul li a{
+        color: rgb(199, 120, 46);
+        font-family: 'DataLatin';
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 0.6px;
+        text-decoration: none;
+        z-index: 20;
+    }
+    .navigation ul li a:active {
+        color: red;
+        z-index: 20;
+    }
+    #acceuilMenuBurger {
+        visibility: visible;
     }
 
-    #logo-nasa, img{
+    /*...... navbar.... */
+    #title {
+        margin-left: 6.5em;
+        font-size: 60px;
+    }
+    #logo-nasa {
         display: none;
     }
-
     button {
-        font-size: 18px;
+        display: none;
     }
-
-    #title-category {
-        margin-top: 1em;
-        display: flex;
-    }
-
-    #title-categoryKuiperBelt > a {
-        border: 1px solid ; 
-        border-radius: 25px;
-        font-size: 20px;
-        padding: 0.4em;
-    }
-
-    #title-categoryYouKnow > a 
-        {border: 1px solid; 
-        border-radius: 25px;
-        font-size: 20px;
-        padding: 0.4em;
-    }
-
-    #title-categoryApprochEarth > a {
-        border: 1px solid; 
-        border-radius: 25px; 
-        font-size: 20px;
-        padding: 0.4em;
-    }
+    
 }
 
 /*......media queries portrait mobile version.......*/
 
 @media only screen and (max-device-width: 375px) {
 
+    /*....... menu burger ....... */
+
+    .btn-navigation {
+        position: absolute;
+        right: 30px;
+        top: 8px;
+        z-index: 30;
+    }
+    .btn-navigation .barre ,.btn-navigation .barre1{
+        width: 30px;
+        height: 2px;
+        background: rgb(199, 120, 46);
+        margin-top: 5px;
+        z-index: 20;
+    }
+    .navigation {
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 0 4px;
+        background: rgb(31, 30, 30);
+        width: 50%;
+        height: 100%;
+        z-index: 20;
+
+        transition: transform 1s ease-in-out;
+        -webkit-transition: transform 1s ease-in-out;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    .navigation.isOpen {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        z-index: 20;
+    }
+    .navigation ul {
+        position: absolute;
+        top: 50%;
+        z-index: 20;
+
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .navigation ul li {
+        margin: 50px 0;
+        z-index: 20;
+    }
+    .navigation ul li a{
+        color: rgb(199, 120, 46);
+        font-family: 'DataLatin';
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        z-index: 20;
+    }
+    .navigation ul li a:active {
+        color: red;
+        z-index: 20;
+    }
+    #acceuilMenuBurger {
+        visibility: visible;
+    }
+
+    /*...... navbar..... */
+
     #title {
+        top: 1px;
         margin: 0 auto;
         font-size: 38px;
+        margin-bottom: 1em;
     }
-
-    #logo-nasa, img{
+    #logo-nasa {
         display: none;
     }
-
     button {
-        font-size: 12px;
+        display: none;
     }
+    #acceuil {
+        display: none;
+    }
+    
 
-    #title-category {
-        margin-top: 1em;
-        margin-left: 1em;
-    }
-
-    #title-categoryKuiperBelt > a {
-        margin: 6.5em;
-        border: 1px solid ; 
-        border-radius: 25px;
-        font-size: 14px;
-        padding: 0.4em;
-    }
-
-    #title-categoryKuiperBelt {
-        margin-bottom: 1em;
-    }
-
-    #title-categoryYouKnow > a {
-        margin: 6.5em;
-        border: 1px solid;
-        border-radius: 25px;
-        font-size: 14px;
-        padding: 0.4em;
-    }
-
-    #title-categoryYouKnow {
-        margin-bottom: 1em;
-    }
-
-    #title-categoryApprochEarth > a {
-        margin: 7.5em;
-        border: 1px solid; 
-        border-radius: 25px;
-        font-size: 14px;
-        padding: 0.4em;
-    }
-
-    #title-categoryApprochEarth {
-        margin-bottom: 1em;
-    }
 }

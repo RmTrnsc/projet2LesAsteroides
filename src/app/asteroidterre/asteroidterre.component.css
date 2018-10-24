@@ -5,47 +5,55 @@
   .nasa-information {
         display: flex;
         padding: 1em;
-        margin-left: 18em;
+        margin-left: 14em;
         margin-top: 3em;
     }
-
+    .background-color {
+        color: black;
+        opacity: 0.2;
+    }
     .text-information {
         align-content: space-between;
-        margin-right: 1.5em;
-        color: rgb(252, 211, 79);
+        margin-right: 4em;
+        font-size: 40px;
+        line-height: 0.8em;
+        color: #fff;
         border: 1px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
         border-radius: 25px;
-        padding: 1em;
-        width: 20vw;
-        height: 20vw;
+        font-family: 'CosmosNormal';
+        background-image: url(/assets/fond-etoile1.png);
+        padding: 0.5em;
+        width: 40vw;
+        height: auto;
     }
 }
 
 /*------------- media query tablette version ---------*/
 
-@media only screen and (min-device-width : 768px) and (max-device-width: 1024px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 
     .nasa-information {
         display: flex;
-        padding: 1em;
-        margin-left: 18em;
-        margin-top: 3em;
+        margin-left: 20%;
+        margin-top: 4em;
+        width: 120vw;
     }
 
     .text-information {
-        font-size: 20px;
         align-content: space-between;
-        margin-right: 10px;
-        color: rgb(252, 211, 79);
+        margin-right: 2em;
+        font-size: 40px;
+        line-height: 0.8em;
+        color: #fff;
         border: 1px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
-        border-radius: 25px;
-        padding: 1em;
-        width: 60vw;
-        height: 55vw;
+        border-radius: 15px;
+        font-family: 'CosmosNormal';
+        background-image: url(/assets/fond-etoile1.png);
+        padding: 0.5em;
+        height: auto;
     }
 }
+
 
 /*------------- media query portrait mobile version ---------*/
 
@@ -61,16 +69,18 @@
     }
 
     .text-information {
-        font-size: 20px;
+        font-size: 35px;
+        line-height: 0.8em;
         align-content: space-between;
         margin-right: 10px;
-        color: rgb(252, 211, 79);
+        color: rgb(255, 255, 255);
+        font-family: 'CosmosNormal';
         border: 1px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
+        background-image: url(/assets/fond-etoile1.png);
         border-radius: 25px;
-        padding: 1em;
+        padding: 0.3em;
         width: 70vw;
-        height: 60vw;
+        height: auto;
         margin: 0 auto;
         margin-bottom: 1em;
     }
@@ -85,22 +95,24 @@
     }
 
     .nasa-information {
-        margin-left: 17em;
+        margin-left: 14em;
         padding: 1em;
         margin-top: 1em;
     }
 
     .text-information {
-        font-size: 20px;
+        font-size: 40px;
+        line-height: 0.8em;
         align-content: space-between;
         margin-right: 10px;
-        color: rgb(252, 211, 79);
+        color: rgb(255, 255, 255);
+        font-family: 'CosmosNormal';
         border: 1px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
+        background-image: url(/assets/fond-etoile1.png);
         border-radius: 25px;
-        padding: 1em;
-        width: 60vw;
-        height: 40vw;
+        padding: 0.3em;
+        width: 80vw;
+        height: auto;
         margin: 0 auto;
         margin-bottom: 1em;
     }

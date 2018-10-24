@@ -7,13 +7,16 @@
         margin: 0 auto;
         width: 50vw;
         border: 2px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
+        background-image: url(/assets/fond-etoile1.png);
         border-radius: 40px;
         padding: 1em;
     }
 
     p {
-        font-size: 22px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 1em;
+        font-family: 'CosmosNormal';
         color: rgb(246, 246, 246);
     }
 }
@@ -26,15 +29,16 @@
         margin: 0 auto;
         width: 80vw;
         border: 2px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
+        background-image: url(/assets/fond-etoile1.png);
         border-radius: 40px;
         padding: 1em;
     }
-
     p {
         text-align: center;
-        font-size: 16px;
-        color: rgb(246, 246, 246);
+        font-size: 40px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -43,19 +47,20 @@
 @media only screen and (min-device-width: 376px) and (max-device-width: 667px){
 
     #textAcceuil {
-        margin-left: 8em;
+        margin-left: 30%;
         margin-top: 5em;
-        width: 100vw;
+        width: 90vw;
         border: 2px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
+        background-image: url(/assets/fond-etoile1.png);
         border-radius: 40px;
         padding: 1em;
     }
-
     p {
         text-align: center;
-        font-size: 16px;
-        color: rgb(246, 246, 246);
+        font-size: 60px;
+        line-height: 0.8em;
+        font-family: 'CosmosNormal';
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -64,19 +69,20 @@
 @media only screen and (min-device-width : 768px) and (max-device-width: 1024px){
 
     #textAcceuil {
-        margin-left: 9em;
+        margin-left: 20%;
         margin-top: 5em;
         width: 100vw;
-        height: 85vw;
+        height: auto;
         border: 2px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
+        background-image: url(/assets/fond-etoile1.png);
         border-radius: 40px;
         padding: 2em;
     }
-
     p {
         text-align: center;
-        font-size: 28px;
+        font-size: 80px;
+        line-height: 0.9em;
+        font-family: 'CosmosNormal';
         color: rgb(246, 246, 246);
     }
 }
