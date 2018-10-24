@@ -17,7 +17,7 @@
     .text-information {
         align-content: space-between;
         margin-right: 4em;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 0.8em;
         color: #fff;
         border: 1px solid #2cabcf;
@@ -38,6 +38,7 @@
         color: #fff;
         font-family: 'DataLatin';
         text-align: center;
+        font-weight: bold;
     }
 }
 
