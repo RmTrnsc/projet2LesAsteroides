@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
+import { HttpModule } from '@angular/http';
 import { AsteroidterreComponent } from './asteroidterre/asteroidterre.component';
 import { AsteroidceintureComponent } from './asteroidceinture/asteroidceinture.component';
 import { AsteroidconnuComponent } from './asteroidconnu/asteroidconnu.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
+import { RecuperationInfosService } from './recuperation-infos.service'
+
 
 @NgModule({
   declarations: [
@@ -19,6 +22,7 @@ import { AcceuilComponent } from './acceuil/acceuil.component';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot(
       [
         { path: "Trojan asteroid", component: AsteroidceintureComponent, pathMatch: "full"},
@@ -31,7 +35,7 @@ import { AcceuilComponent } from './acceuil/acceuil.component';
       {useHash: true}
     )
   ],
-  providers: [],
+  providers: [RecuperationInfosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

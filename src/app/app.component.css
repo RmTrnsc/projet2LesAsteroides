@@ -88,17 +88,14 @@ button {
         text-shadow: 0 4px #eee;
     }
 
-    #title-categoryKuiperBelt:hover{
-        transform: rotateY(90deg);
-    }
-    /* #title-categoryKuiperBelt > a:hover {
+    #title-categoryKuiperBelt > a:hover {
         background: rgba(182, 181, 181, 0.2);
         text-shadow: 0 1px rgb(235, 117, 38);
-    } */
+    }
 
-    /* #title-categoryKuiperBelt > a:active {
+    #title-categoryKuiperBelt > a:active {
         color: red;
-    } */
+    }
 
     #title-categoryYouKnow > a:hover {
         background: rgba(182, 181, 181, 0.2);
