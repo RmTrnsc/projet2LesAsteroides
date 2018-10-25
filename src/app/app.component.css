@@ -16,12 +16,9 @@ button {
 button p {
     position: absolute;
     top: 35px;
-    left: 32px;
+    left: 40px;
     color: rgb(199, 120, 46);
     opacity: 0;
-}
-#logo-nasa {
-    margin: 0.5em;
 }
     /* .......title....... */
 
@@ -43,8 +40,12 @@ button p {
 
     /*..............title..............*/
 
+    #logo-nasa {
+        margin-left: 34.5em;
+        margin-top: 1em;
+    }
     #title {
-        margin: 0 auto;
+        margin-left: 5.5em;
         color: rgb(199, 120, 46);
         font-size: 5em;
     }
