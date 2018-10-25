@@ -209,9 +209,12 @@
 
     /* footer mobile */
 
+    #footerMobile {
+      margin: 5em 1em 1em 1em;
+    }
     #footerMobile a{
       color: #fff;
-      margin-left: 8.5em;
+      margin-left: 7.5em;
       margin-bottom: 1em;
     }
 
@@ -226,8 +229,8 @@
 @media only screen and (min-device-width: 376px) and (max-device-width: 667px){
 
     #textAcceuil {
-        margin-left: 30%;
-        margin-top: 5em;
+        margin-left: 9em;
+        margin-top: 3em;
         width: 90vw;
         border: 2px solid #2cabcf;
         background-image: url(/assets/fond-etoile.jpg);
@@ -255,12 +258,12 @@
     /* footer mobile */
 
     #footerMobile {
-      margin-left: 20em;
+      margin-left: 14em;
       margin-top: 2em;
     }
     #footerMobile a{
       color: #fff;
-      margin-left: 3.5em;
+      margin-left: 5.5em;
       margin-bottom: 1em;
       font-size: 25px;
     }

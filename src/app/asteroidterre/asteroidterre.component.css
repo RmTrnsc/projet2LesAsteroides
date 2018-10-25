@@ -1,3 +1,4 @@
+
 /**--------- media query desktop version ----------*/
 
 @media only screen and (min-device-width: 1025px){
@@ -39,6 +40,7 @@
         width: 50%;
         margin: 1em;
         background-color: rgba(2, 82, 119, 0.568);
+        border-radius: 15px;
     }
     .footer-text {
         padding: 0.3em;
@@ -51,127 +53,128 @@
         color: rgb(235, 117, 38);
     }
     
-     /*.............. footer link effect.................. */
-     .portfolio-experiment, .scene {
-        width: 5em;
-        height: 2em;
-        overflow: hidden;
-        margin: 0 auto;
-      }
-      .portfolio-experiment {
-          margin-bottom: 0.2em;
-      }
-      .portfolio-experiment a {
-        color: rgb(235, 117, 38);
-        border-radius: 15px;
-        padding: 0.4em;
-        display: inline-block;
-        border: 3px solid transparent;
-        position: relative;
-        font-size: 45px;
-        cursor: pointer;
-      }
-      .portfolio-experiment a .text {
-        font-family: 'CosmosNormal';
-        transform: translate3d(0, 0.7em, 0);
-        display: block;
-        transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1) 0.4s;
-      }
-      .portfolio-experiment a:after {
-        position: absolute;
-        content: '';
-        bottom: -3px;
-        left: calc(0.7em * 1.2);
-        right: calc(0.7em * 1.2);
-        height: 3px;
-        background: #2cabcf;
-        transition: transform 0.2s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
-        transform-origin: left;
-      }
-      .portfolio-experiment .line {
-        position: absolute;
-        background: #2cabcf;
-      }
-      .portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
-        width: 3px;
-        bottom: -3px;
-        top: -3px;
-        transform: scale3d(1, 0, 1);
-      }
-      .portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
-        height: 3px;
-        left: -3px;
-        right: -3px;
-        transform: scale3d(0, 1, 1);
-      }
-      .portfolio-experiment .line.-right {
-        right: -3px;
-        transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
-        transform-origin: top;
-      }
-      .portfolio-experiment .line.-top {
-        top: -3px;
-        transition: transform 0.08s linear 0.43s;
-        transform-origin: left;
-      }
-      .portfolio-experiment .line.-left {
-        left: -3px;
-        transition: transform 0.08s linear 0.51s;
-        transform-origin: bottom;
-      }
-      .portfolio-experiment .line.-bottom {
-        bottom: -3px;
-        transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
-        transform-origin: right;
-      }
-      .portfolio-experiment a:hover .text,
-      .portfolio-experiment a:active .text {
-        transform: translate3d(0, 0, 0);
-        transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
-      }
-      .portfolio-experiment a:hover:after,
-      .portfolio-experiment a:active:after {
-        transform: scale3d(0, 1, 1);
-        right: -3px;
-        left: -3px;
-        transform-origin: right;
-        transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
-      }
-      .portfolio-experiment a:hover .line,
-      .portfolio-experiment a:active .line {
-        transform: scale3d(1, 1, 1);
-      }
-      .portfolio-experiment a:hover .line.-right,
-      .portfolio-experiment a:active .line.-right {
-        transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
-        transform-origin: bottom;
-      }
-      .portfolio-experiment a:hover .line.-top,
-      .portfolio-experiment a:active .line.-top {
-        transition: transform 0.08s linear 0.4s;
-        transform-origin: right;
-      }
-      .portfolio-experiment a:hover .line.-left,
-      .portfolio-experiment a:active .line.-left {
-        transition: transform 0.08s linear 0.48s;
-        transform-origin: top;
-      }
-      .portfolio-experiment a:hover .line.-bottom,
-      .portfolio-experiment a:active .line.-bottom {
-        transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
-        transform-origin: left;
-      }
-  
+    /*.............. footer link effect.................. */
+    .portfolio-experiment, .scene {
+      width: 5em;
+      height: 2em;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .portfolio-experiment {
+        margin-bottom: 0.2em;
+    }
+    .portfolio-experiment a {
+      color: rgb(235, 117, 38);
+      border-radius: 15px;
+      padding: 0.4em;
+      display: inline-block;
+      border: 3px solid transparent;
+      position: relative;
+      font-size: 45px;
+      cursor: pointer;
+    }
+    .portfolio-experiment a .text {
+      font-family: 'CosmosNormal';
+      transform: translate3d(0, 0.7em, 0);
+      display: block;
+      transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+    }
+    .portfolio-experiment a:after {
+      position: absolute;
+      content: '';
+      bottom: -3px;
+      left: calc(0.7em * 1.2);
+      right: calc(0.7em * 1.2);
+      height: 3px;
+      background: #2cabcf;
+      transition: transform 0.2s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+      transform-origin: left;
+    }
+    .portfolio-experiment .line {
+      position: absolute;
+      background: #2cabcf;
+    }
+    .portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+      width: 3px;
+      bottom: -3px;
+      top: -3px;
+      transform: scale3d(1, 0, 1);
+    }
+    .portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+      height: 3px;
+      left: -3px;
+      right: -3px;
+      transform: scale3d(0, 1, 1);
+    }
+    .portfolio-experiment .line.-right {
+      right: -3px;
+      transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+      transform-origin: top;
+    }
+    .portfolio-experiment .line.-top {
+      top: -3px;
+      transition: transform 0.08s linear 0.43s;
+      transform-origin: left;
+    }
+    .portfolio-experiment .line.-left {
+      left: -3px;
+      transition: transform 0.08s linear 0.51s;
+      transform-origin: bottom;
+    }
+    .portfolio-experiment .line.-bottom {
+      bottom: -3px;
+      transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+      transform-origin: right;
+    }
+    .portfolio-experiment a:hover .text,
+    .portfolio-experiment a:active .text {
+      transform: translate3d(0, 0, 0);
+      transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+    }
+    .portfolio-experiment a:hover:after,
+    .portfolio-experiment a:active:after {
+      transform: scale3d(0, 1, 1);
+      right: -3px;
+      left: -3px;
+      transform-origin: right;
+      transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+    }
+    .portfolio-experiment a:hover .line,
+    .portfolio-experiment a:active .line {
+      transform: scale3d(1, 1, 1);
+    }
+    .portfolio-experiment a:hover .line.-right,
+    .portfolio-experiment a:active .line.-right {
+      transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+      transform-origin: bottom;
+    }
+    .portfolio-experiment a:hover .line.-top,
+    .portfolio-experiment a:active .line.-top {
+      transition: transform 0.08s linear 0.4s;
+      transform-origin: right;
+    }
+    .portfolio-experiment a:hover .line.-left,
+    .portfolio-experiment a:active .line.-left {
+      transition: transform 0.08s linear 0.48s;
+      transform-origin: top;
+    }
+    .portfolio-experiment a:hover .line.-bottom,
+    .portfolio-experiment a:active .line.-bottom {
+      transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+      transform-origin: left;
+    }
+
+  /* ******body page****** */
+
   .nasa-information {
-        display: flex;
         padding: 1em;
         margin-left: 14em;
-        margin-top: 3em;
+        margin-top: 3em;        
     }
     .text-information {
         align-content: space-between;
         margin-right: 4em;
-        font-size: 40px;
+        font-size: 25px;
         line-height: 0.8em;
         color: #fff;
         border: 1px solid #2cabcf;
@@ -179,8 +182,21 @@
         font-family: 'CosmosNormal';
         background-image: url(/assets/fond-etoile1.png);
         padding: 0.5em;
-        width: 40vw;
+        width: 70vw;
         height: auto;
+        margin-bottom: 2em;
+    }
+    .image-daily-news{
+        width: 90%;
+        padding-left: 11%;
+
+    }
+    .title-article {
+        font-size: 25px;
+        color: #fff;
+        font-family: 'DataLatin';
+        text-align: center;
+        font-weight: bold;
     }
 }
 
@@ -189,33 +205,39 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 
     .nasa-information {
-        display: flex;
-        margin-left: 20%;
-        margin-top: 4em;
-        width: 120vw;
+      margin-left: 16%;
+      margin-top: 4em;
+      margin-bottom: 2em;
+      width: 120vw;
     }
-
+    .image-daily-news img {
+      width: 8vw;
+    }
     .text-information {
-        align-content: space-between;
-        margin-right: 2em;
-        font-size: 40px;
-        line-height: 0.8em;
-        color: #fff;
-        border: 1px solid #2cabcf;
-        border-radius: 15px;
-        font-family: 'CosmosNormal';
-        background-image: url(/assets/fond-etoile1.png);
-        padding: 0.5em;
-        height: auto;
+      align-content: space-between;
+      margin-right: 2em;
+      font-size: 60px;
+      line-height: 0.8em;
+      margin-bottom: 2em;
+      color: #fff;
+      border: 1px solid #2cabcf;
+      border-radius: 15px;
+      font-family: 'CosmosNormal';
+      background-image: url(/assets/fond-etoile1.png);
+      padding: 0.5em;
+      height: auto;
     }
     p {
-        text-align: center;
-        font-size: 40px;
-        line-height: 0.8em;
-        font-family: 'CosmosNormal';
-        background-color: rgba(0, 0, 0, 0.7);
-        border-radius: 15px;
-        color: rgb(235, 117, 38);
+      text-align: center;
+      font-size: 60px;
+      line-height: 0.8em;
+      font-family: 'CosmosNormal';
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      color: rgb(235, 117, 38);
+    }
+    .title-article {
+      color: #fff;
     }
 
     /* footer desktop */
@@ -251,10 +273,6 @@
 
 @media only screen and (max-device-width : 375px){
 
-    #second-part {
-        display: none;
-    }
-
     .nasa-information {
         padding: 1em;
         margin-top: 1em;
@@ -278,75 +296,13 @@
     }
     p {
         text-align: center;
-        font-size: 40px;
-        line-height: 0.8em;
+        font-size: 35px;
+        line-height: 0.6em;
         font-family: 'CosmosNormal';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: rgb(235, 117, 38);
-    }
-
-    /* footer desktop */
-
-    #footerIntro {
-      display: none;
-    }
-    #footerContainer {
-      display: none;
-    }
-
-    /* footer mobile */
-
-    #footerMobile a{
-      color: #fff;
-      margin-left: 8.5em;
-      margin-bottom: 1em;
-    }
-
-    .footerMobileContributor {
-      margin-bottom: 1em;
-      margin-top: 1em;
-    }
-}
-
-/*------------- media query landscape mobile version ---------*/
-
-@media only screen and (min-device-width : 376px) and (max-device-width: 667px){
-
-    #second-part {
-        display: none;
-    }
-
-    .nasa-information {
-        margin-left: 14em;
-        padding: 1em;
-        margin-top: 1em;
-    }
-
-    .text-information {
-        font-size: 40px;
-        line-height: 0.8em;
-        align-content: space-between;
-        margin-right: 10px;
-        color: rgb(255, 255, 255);
-        font-family: 'CosmosNormal';
-        border: 1px solid #2cabcf;
-        background-image: url(/assets/fond-etoile1.png);
-        border-radius: 25px;
-        padding: 0.3em;
-        width: 80vw;
-        height: auto;
-        margin: 0 auto;
-        margin-bottom: 1em;
-    }
-    p {
-        text-align: center;
-        font-size: 40px;
-        line-height: 0.8em;
-        font-family: 'CosmosNormal';
-        background-color: rgba(0, 0, 0, 0.7);
-        border-radius: 15px;
-        color: rgb(235, 117, 38);
+        flex-wrap: wrap; 
     }
 
     /* footer desktop */
@@ -361,14 +317,74 @@
     /* footer mobile */
 
     #footerMobile {
-        margin-left: 20em;
+      margin: 1em;
     }
     #footerMobile a{
-        color: #fff;
-        margin-left: 3.5em;
-        margin-bottom: 1em;
-        font-size: 25px;
-      }
+      color: #fff;
+      margin-left: 7.5em;
+      margin-bottom: 1em;
+    }
+
+    .footerMobileContributor {
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+}
+
+/*------------- media query landscape mobile version ---------*/
+
+@media only screen and (min-device-width : 376px) and (max-device-width: 667px){
+
+    .nasa-information {
+      margin-left: 8em;
+      width: 90vw;;
+      padding: 1em;
+      margin-top: 1em;
+    }
+
+    .text-information {
+      font-size: 40px;
+      line-height: 0.8em;
+      align-content: space-between;
+      color: rgb(255, 255, 255);
+      font-family: 'CosmosNormal';
+      border: 1px solid #2cabcf;
+      background-image: url(/assets/fond-etoile1.png);
+      border-radius: 25px;
+      padding: 0.3em;
+      margin: 0 auto;
+      margin-bottom: 1em;
+    }
+    p {
+      text-align: center;
+      font-size: 40px;
+      line-height: 0.8em;
+      font-family: 'CosmosNormal';
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      color: rgb(235, 117, 38);
+    }
+
+    /* footer desktop */
+
+    #footerIntro {
+      display: none;
+    }
+    #footerContainer {
+      display: none;
+    }
+
+    /* footer mobile */
+
+    #footerMobile {
+      margin-left: 10.5em;
+    }
+    #footerMobile a{
+      color: #fff;
+      margin-left: 7em;
+      margin-bottom: 1em;
+      font-size: 25px;
+    }
 
     .footerMobileContributor {
       margin-bottom: 1em;

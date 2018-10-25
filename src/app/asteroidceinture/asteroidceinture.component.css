@@ -8,11 +8,11 @@
 #title {
     margin: 0 auto;
     margin-left: 2em;
-    font-size: 4em;
+    font-size: 2.5em;
     color: rgb(199, 120, 46);
-    font-family: 'CosmosNormal';
+    font-family: 'Datalatin';
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.1em;
+    padding: 0.3em;
     border-radius: 15px;
 }
 
@@ -52,8 +52,9 @@
     }
  
     #title {
-        font-size: 6em;
+        font-size: 3em;
         margin-top: 0.5em;
+        margin-left: 36%;
     }
 
     #carouselSmartphoneTablette {
@@ -84,7 +85,7 @@
     }
     .asteroid-text {
         padding: 0.4em;
-        font-size: 60px;
+        font-size: 80px;
         font-family: 'CosmosNormal';
         line-height: 0.8em;
     }
@@ -135,7 +136,7 @@
 
     #title {
         margin: 0 auto;
-        font-size: 3em;
+        font-size: 1.5em;
     }    
 
     #carouselSmartphoneTabletteText {
@@ -156,7 +157,7 @@
         width: 50vw;
         height: auto;
         text-align: center;
-        font-size: 35px;
+        font-size: 40px;
         font-family: 'CosmosNormal';
         background-color: rgba(0, 0, 0, 0.6);
         color: rgb(252, 211, 79);
@@ -187,6 +188,9 @@
   
       /* footer mobile */
   
+      #footerMobile {
+        margin: 5em 1em 1em 1em;
+      }
       #footerMobile a{
         color: #fff;
         margin-left: 8.5em;
@@ -208,12 +212,14 @@
     }
  
     #title {
+        margin-left: 13.5em;
         margin-top: 1em;
-        font-size: 4em;
+        font-size: 1.5em;
     }
 
     #carouselSmartphoneTablette {
-        margin-left: 10em;
+        margin-top: 1.5em;
+        margin-left: 7.5em;
     }
 
     #carouselSmartphoneTabletteText {
@@ -265,12 +271,12 @@
       /* footer mobile */
   
       #footerMobile {
-        margin-left: 20em;
+        margin-left: 12em;
         margin-top: 2em;
       }
       #footerMobile a{
         color: #fff;
-        margin-left: 3.5em;
+        margin-left: 6em;
         margin-bottom: 1em;
         font-size: 25px;
       }
@@ -322,9 +328,10 @@
         margin: 2em;
     }
     .footer-contributor {
-        width: 50%;
+        width: 60%;
         margin: 1em;
         background-color: rgba(2, 82, 119, 0.568);
+        border-radius: 15px;
     }
     .footer-text {
         padding: 0.3em;

@@ -52,7 +52,7 @@ button p {
 
     #title-category {
         display: flex;
-        margin-left: 17%;
+        margin-left: 18em;
         margin-top: 2em;
         margin-bottom: 5em;
     }
@@ -60,7 +60,7 @@ button p {
 
     #title-categoryKuiperBelt > a {
         color: rgb(199, 120, 46);
-        font-size: 2em;
+        font-size: 28px;
         text-align: center;
         border: 3px solid #2cabcf;
         background-image: url(/assets/etoile.jpg);
@@ -73,7 +73,7 @@ button p {
     }
     #title-categoryYouKnow > a {
         color: rgb(199, 120, 46);
-        font-size: 2em;
+        font-size: 28px;
         text-align: center;
         border: 3px solid #2cabcf;
         background-image: url(/assets/etoile.jpg);
@@ -86,7 +86,7 @@ button p {
     }
     #title-categoryApprochEarth > a {
         color: rgb(199, 120, 46);
-        font-size: 2em;
+        font-size: 28px;
         text-align: center;
         border: 3px solid #2cabcf;
         background-image: url(/assets/etoile.jpg);
@@ -147,10 +147,10 @@ button p {
     }
     #logo-nasa {
         position: absolute;
-        left: 120%;
+        left: 125%;
     }
     #title {
-        margin-left: 35%;
+        margin-left: 32.5%;
         font-size: 6em;
     }
     button {
@@ -159,14 +159,14 @@ button p {
     #title-category {
         width: 100vw;
         display:flex;
-        margin-left: 30%;
+        margin-left: 28%;
     }
     #title-categoryKuiperBelt > a, #title-categoryYouKnow > a {
         border: 1px solid ; 
         border-radius: 25px;
         font-size: 28px;
         padding: 0.4em;
-        margin-right: 0.5em;
+        margin-right: 0.7em;
         color: rgb(199, 120, 46);
         text-align: center;
         border: 1px solid #2cabcf;
@@ -198,7 +198,7 @@ button p {
     .btn-navigation {
         position: absolute;
         position: fixed;
-        left: 58em;
+        right: 30px;
         top: 8px;
         z-index: 30;
     }
@@ -259,7 +259,7 @@ button p {
 
     /*...... navbar.... */
     #title {
-        margin-left: 6.5em;
+        margin-left: 5.5em;
         font-size: 60px;
     }
     #logo-nasa {
@@ -279,7 +279,8 @@ button p {
 
     .btn-navigation {
         position: absolute;
-        right: 30px;
+        position: fixed;
+        right: 10px;
         top: 8px;
         z-index: 30;
     }

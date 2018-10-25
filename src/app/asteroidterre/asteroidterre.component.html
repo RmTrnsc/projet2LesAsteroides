@@ -1,25 +1,33 @@
+<!----------------------------------------FIRST DAILY NEWS PART------------------------------------------->
+
 <div class="nasa-information">
-    <div class="text-information">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic, veniam accusamus tempora fugiat eos mollitia maiores sunt.?</p>
-    </div>
-    <div class="text-information">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic, veniam accusamus tempora fugiat eos mollitia maiores sunt.?</p>
-    </div>
-    <div class="text-information">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic, veniam accusamus tempora fugiat eos mollitia maiores sunt.?</p>
-    </div>
-</div>
-<div id="second-part">
-  <div class="nasa-information">
-      <div class="text-information">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic, veniam accusamus tempora fugiat eos mollitia maiores sunt.?</p>
+  <div class="text-information">
+      <p class="title-article"> {{titles[92]}} </p>
+      <div class="image-daily-news"> 
+          <p *ngIf = "dailyInfo != null"><img class="w-100" src="{{images[92]}}" /></p>
       </div>
-      <div class="text-information">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic, veniam accusamus tempora fugiat eos mollitia maiores sunt.?</p>
-      </div>
-      <div class="text-information">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic, veniam accusamus tempora fugiat eos mollitia maiores sunt.?</p>
-      </div>
+      <p> {{description[92]}} </p>
+  </div>
+  <div class="text-information">
+    <p class="title-article"> {{titles[59]}} </p>
+    <div class="image-daily-news">
+        <p *ngIf = "dailyInfo != null"><img class="w-100" src="{{images[59]}}" /></p>
+    </div>
+    <p> {{description[59]}} </p>
+  </div>
+  <div class="text-information">
+    <p class="title-article"> {{titles[16]}} </p>
+    <div class="image-daily-news">
+        <p *ngIf = "dailyInfo != null"><img class="w-100" src="{{images[16]}}" /></p>
+    </div>
+    <p> {{description[16]}} </p>
+  </div>
+  <div class="text-information">
+    <p class="title-article"> {{titles[70]}} </p>
+    <div class="image-daily-news">
+        <p *ngIf = "dailyInfo != null"><img class="w-100" src="{{images[70]}}" /></p>
+    </div>
+    <p> {{description[70]}} </p>
   </div>
 </div>
 
@@ -89,6 +97,7 @@
 <!---------------- mobile footer ------------------>
 
 <div id="footerMobile">
+    <p>a creation of</p>
   <div class="footerMobileContributor">
     <p>Tournesac Romain</p>
     <a href="https://www.linkedin.com/in/romain-tournesac/">Linked In profile</a>
@@ -102,3 +111,5 @@
     <a href="https://www.linkedin.com/in/rapha%C3%ABl-chelu/">Linked In profile</a>
   </div>
 </div>
+
+
