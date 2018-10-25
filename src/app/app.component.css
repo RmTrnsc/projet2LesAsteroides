@@ -53,52 +53,13 @@ button p {
 
     #title-category {
         display: flex;
-        margin-left: 18em;
+        margin-left: 16em;
         margin-top: 2em;
         margin-bottom: 5em;
     }
-        /*....... category......... */
+    /*....... category......... */
 
-    #title-categoryKuiperBelt > a {
-        color: rgb(199, 120, 46);
-        font-size: 28px;
-        text-align: center;
-        border: 3px solid #2cabcf;
-        background-image: url(/assets/etoile.jpg);
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 0.5em;
-        font-family: 'DataLatin';
-        transition: 0.7s;
-        margin-right: 2em;
-    }
-    #title-categoryYouKnow > a {
-        color: rgb(199, 120, 46);
-        font-size: 28px;
-        text-align: center;
-        border: 3px solid #2cabcf;
-        background-image: url(/assets/etoile.jpg);
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 0.5em;
-        font-family: 'DataLatin';
-        transition: 0.7s;
-        margin-right: 2em;
-    }
-    #title-categoryApprochEarth > a {
-        color: rgb(199, 120, 46);
-        font-size: 28px;
-        text-align: center;
-        border: 3px solid #2cabcf;
-        background-image: url(/assets/etoile.jpg);
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 0.5em;
-        font-family: 'DataLatin';
-        transition: 0.7s;
-    }
-    /*........hover effect.......*/
-
+    /*************hover effect ***************/
     button:hover {
         cursor: pointer;
     }
@@ -110,33 +71,60 @@ button p {
         opacity: 1;
         transition: 0.6s;
     }
-    #title-categoryKuiperBelt > a:hover {
-        background: rgba(182, 181, 181, 0.2);
-        text-shadow: 0 1px rgb(235, 117, 38);
-        transition: 0.5s;
+    .btn-wrapper {
+    width: 290px;
+    height: 110px;
+    position: relative;
+    margin-right: 2em;
     }
-    #title-categoryKuiperBelt > a:active {
-        color: red;
-        transition: 0.1s;
+    .btn-wrapper:hover .btn-inner {
+    top: -4px;
+    transform: scale(1, 1);
+    cursor: pointer;
     }
-    #title-categoryYouKnow > a:hover {
-        background: rgba(182, 181, 181, 0.2);
-        text-shadow: 0 1px rgb(235, 117, 38);
-        transition: 0.5s;
+    .btn-wrapper__container {
+    border-bottom: 2px solid rgb(199, 120, 46);
+    position: absolute;
+    width: 100%;
+    height: 80px;
     }
-
-    #title-categoryYouKnow > a:active {
-        color: red;
-        transition: 0.1s;
+    .btn-wrapper__container:before, .btn-wrapper__container:after {
+    border-bottom: 2px solid rgb(199, 120, 46);
+    width: 96%;
+    left: 2%;
+    bottom: -8px;
+    content: "";
+    position: absolute;
     }
-    #title-categoryApprochEarth > a:hover {
-        background: rgba(182, 181, 181, 0.2);
-        text-shadow: 0 1px rgb(235, 117, 38);
-        transition: 0.5s;
+    .btn-wrapper__container:after {
+    width: 92%;
+    left: 4%;
+    bottom: -14px;
     }
-    #title-categoryApprochEarth > a:active {
-        color: red;
-        transition: 0.1s;
+    .btn-wrapper__container .btn-inner {
+    width: 104.2%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: -2.1%;
+    border: 2px solid #15B5E2;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'CosmosNormal';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 50px;
+    background-image: url(/assets/etoile.jpg);
+    transform: scale(0.96, 0.96);
+    transition: all .3s;
+    z-index: 4;
+    }
+    .btn-wrapper__container .btn-inner__text {
+    text-decoration: none;
+    color: rgb(199, 120, 46);
     }
 }
     /*.........media querie tablette version.....*/
