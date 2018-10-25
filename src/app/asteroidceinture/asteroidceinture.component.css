@@ -6,10 +6,14 @@
 }
 
 #title {
+    margin: 0 auto;
     margin-left: 2em;
-    font-size: 4em;
+    font-size: 2.5em;
     color: rgb(199, 120, 46);
-    font-family: 'CosmosNormal';
+    font-family: 'Datalatin';
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.3em;
+    border-radius: 15px;
 }
 
 #carouselSmartphoneTabletteText {
@@ -17,13 +21,13 @@
     background-image: url(/assets/fond-etoile.jpg);
     margin: 0 auto;
     border: 2px solid #2cabcf;
-    border-radius: 25px;
     padding: 0.5em;
     width: 40vw;
 }
 
 .asteroid-text {
     color: rgb(199, 120, 46);
+    background-color: rgba(0, 0, 0, 0.7);
     font-size: 28px;
     text-align: center;
 }
@@ -48,8 +52,9 @@
     }
  
     #title {
-        font-size: 6em;
+        font-size: 3em;
         margin-top: 0.5em;
+        margin-left: 36%;
     }
 
     #carouselSmartphoneTablette {
@@ -57,21 +62,68 @@
     }
 
     #carouselSmartphoneTabletteText {
-        margin-left: 5em;
-        width: 80vw;
+        margin-left: 10%;
+        width: 95vw;
+        border-radius: 20px;
     }
 
     #carouselSmartphoneTabletteImage {
-        margin-left: 5em;
-        width: 80vw;
+        margin-left: 30%;
+        width: 60vw;
         margin-top: 2em;
         margin-bottom: 3em;
     }
-
-    .asteroid-text {
-        width: 80vw;
-        font-size: 40px;
+    .carousel-item p{
+        margin: 0 auto;
+        width: 50vw;
+        height: 8vw;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'CosmosNormal';
+        background-color: rgb(0, 0, 0);
+        color: rgb(252, 211, 79);
     }
+    .asteroid-text {
+        padding: 0.4em;
+        font-size: 80px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
+    }
+    p {
+        text-align: center;
+        font-size: 60px;
+        line-height: 0.8em;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: rgb(235, 117, 38);
+    }
+    /* footer desktop */
+
+    #footerIntro {
+        display: none;
+      }
+      #footerContainer {
+        display: none;
+      }
+  
+      /* footer mobile */
+  
+      #footerMobile {
+          margin-left: 35%;
+          margin-top: 4em;
+      }
+      #footerMobile a{
+          color: #fff;
+          margin-left: 40%;
+          margin-bottom: 1em;
+          font-size: 25px;
+        }
+  
+      .footerMobileContributor {
+        margin-bottom: 1em;
+        margin-top: 1em;
+      }
 }
 
 /*------------- media query portrait mobile version ---------*/
@@ -84,11 +136,13 @@
 
     #title {
         margin: 0 auto;
-        font-size: 3em;
+        font-size: 1.5em;
     }    
 
     #carouselSmartphoneTabletteText {
         width: 70vw;
+        z-index: 1;
+        border-radius: 15px;
     }
 
     #carouselSmartphoneTabletteImage {
@@ -96,12 +150,57 @@
         width: 55vw;
         margin-top: 2em;
         margin-bottom: 3em;
+        z-index: -1;
     }
-
+    .carousel-item p{
+        margin: 0 auto;
+        width: 50vw;
+        height: auto;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.6);
+        color: rgb(252, 211, 79);
+    }
     .asteroid-text {
-        width: 65vw;
-        font-size: 18px;
+        padding: 0.2em;
+        font-size: 30px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
     }
+    p {
+        text-align: center;
+        font-size: 40px;
+        line-height: 0.8em;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: rgb(235, 117, 38);
+    }
+    /* footer desktop */
+
+    #footerIntro {
+        display: none;
+      }
+      #footerContainer {
+        display: none;
+      }
+  
+      /* footer mobile */
+  
+      #footerMobile {
+        margin: 5em 1em 1em 1em;
+      }
+      #footerMobile a{
+        color: #fff;
+        margin-left: 7em;
+        margin-bottom: 1em;
+      }
+  
+      .footerMobileContributor {
+        margin-bottom: 1em;
+        margin-top: 1em;
+      }
 }
 
 /*------------- media query landscape mobile version ---------*/
@@ -113,17 +212,20 @@
     }
  
     #title {
+        margin-left: 13.5em;
         margin-top: 1em;
-        font-size: 4em;
+        font-size: 1.5em;
     }
 
     #carouselSmartphoneTablette {
-        margin-left: 10em;
+        margin-top: 1.5em;
+        margin-left: 7.5em;
     }
 
     #carouselSmartphoneTabletteText {
-        margin-left: 7em;
-        width: 70vw;
+        margin-left: 1em;
+        width: 95vw;
+        border-radius: 15px;
     }
 
     #carouselSmartphoneTabletteImage {
@@ -132,12 +234,57 @@
         margin-top: 1em;
         margin-bottom: 3em;
     }
-
-    .asteroid-text {
+    .carousel-item p{
         margin: 0 auto;
-        width: 55vw;
-        font-size: 22px;
+        width: 50vw;
+        height: auto;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.6);
+        color: rgb(252, 211, 79);
     }
+    .asteroid-text {
+        font-size: 50px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
+        padding: 0.2em;
+    }
+    p {
+        text-align: center;
+        font-size: 60px;
+        line-height: 0.8em;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: rgb(235, 117, 38);
+    }
+    /* footer desktop */
+
+    #footerIntro {
+        display: none;
+      }
+      #footerContainer {
+        display: none;
+      }
+  
+      /* footer mobile */
+  
+      #footerMobile {
+        margin-left: 12em;
+        margin-top: 2em;
+      }
+      #footerMobile a{
+        color: #fff;
+        margin-left: 6em;
+        margin-bottom: 1em;
+        font-size: 25px;
+      }
+  
+      .footerMobileContributor {
+        margin-bottom: 1em;
+        margin-top: 2em;
+      }
 }
 
 /*-------------------------------------------- CAROUSEL DESKTOP VERSION---------------------------------------------- */
@@ -147,12 +294,167 @@
     *{
         box-sizing: border-box;
     }
+    /********* footer mobile ***************/
 
-    #carouselSmartphoneTablette {
-        display: none;
+    #footerMobile {
+        display:none;
+      }
+    /* .............footer........... */
+    p {
+        text-align: center;
+        font-size: 45px;
+        line-height: 1em;
+        font-family: 'CosmosNormal';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: rgb(235, 117, 38);
     }
-
-    #name-lutetia {
+    #footerIntro {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 8em;
+        padding: 0.3em;
+        background-color: rgba(4, 138, 201, 0.459);
+        border: 1px solid #2cabcf;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 45px;
+        line-height: 1em;
+        font-family: 'CosmosNormal';
+        color: rgb(235, 117, 38);
+    }
+    #footerContainer {
+        display:flex;
+        margin: 2em;
+    }
+    .footer-contributor {
+        width: 60%;
+        margin: 1em;
+        background-color: rgba(2, 82, 119, 0.568);
+        border-radius: 15px;
+    }
+    .footer-text {
+        padding: 0.3em;
+        border: 1px solid #2cabcf;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 45px;
+        line-height: 1em;
+        font-family: 'CosmosNormal';
+        color: rgb(235, 117, 38);
+    }
+    
+     /*.............. footer link effect.................. */
+     .portfolio-experiment, .scene {
+        width: 5em;
+        height: 2em;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      .portfolio-experiment {
+          margin-bottom: 0.2em;
+      }
+      .portfolio-experiment a {
+        color: rgb(235, 117, 38);
+        border-radius: 15px;
+        padding: 0.4em;
+        display: inline-block;
+        border: 3px solid transparent;
+        position: relative;
+        font-size: 45px;
+        cursor: pointer;
+      }
+      .portfolio-experiment a .text {
+        font-family: 'CosmosNormal';
+        transform: translate3d(0, 0.7em, 0);
+        display: block;
+        transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+      }
+      .portfolio-experiment a:after {
+        position: absolute;
+        content: '';
+        bottom: -3px;
+        left: calc(0.7em * 1.2);
+        right: calc(0.7em * 1.2);
+        height: 3px;
+        background: #2cabcf;
+        transition: transform 0.6s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+        transform-origin: left;
+      }
+      .portfolio-experiment .line {
+        position: absolute;
+        background: #2cabcf;
+      }
+      .portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+        width: 3px;
+        bottom: -3px;
+        top: -3px;
+        transform: scale3d(1, 0, 1);
+      }
+      .portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+        height: 3px;
+        left: -3px;
+        right: -3px;
+        transform: scale3d(0, 1, 1);
+      }
+      .portfolio-experiment .line.-right {
+        right: -3px;
+        transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+        transform-origin: top;
+      }
+      .portfolio-experiment .line.-top {
+        top: -3px;
+        transition: transform 0.08s linear 0.43s;
+        transform-origin: left;
+      }
+      .portfolio-experiment .line.-left {
+        left: -3px;
+        transition: transform 0.08s linear 0.51s;
+        transform-origin: bottom;
+      }
+      .portfolio-experiment .line.-bottom {
+        bottom: -3px;
+        transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+        transform-origin: right;
+      }
+      .portfolio-experiment a:hover .text,
+      .portfolio-experiment a:active .text {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+      }
+      .portfolio-experiment a:hover:after,
+      .portfolio-experiment a:active:after {
+        transform: scale3d(0, 1, 1);
+        right: -3px;
+        left: -3px;
+        transform-origin: right;
+        transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+      }
+      .portfolio-experiment a:hover .line,
+      .portfolio-experiment a:active .line {
+        transform: scale3d(1, 1, 1);
+      }
+      .portfolio-experiment a:hover .line.-right,
+      .portfolio-experiment a:active .line.-right {
+        transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+        transform-origin: bottom;
+      }
+      .portfolio-experiment a:hover .line.-top,
+      .portfolio-experiment a:active .line.-top {
+        transition: transform 0.08s linear 0.4s;
+        transform-origin: right;
+      }
+      .portfolio-experiment a:hover .line.-left,
+      .portfolio-experiment a:active .line.-left {
+        transition: transform 0.08s linear 0.48s;
+        transform-origin: top;
+      }
+      .portfolio-experiment a:hover .line.-bottom,
+      .portfolio-experiment a:active .line.-bottom {
+        transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+        transform-origin: left;
+      }
+    #carouselSmartphoneTablette {
         display: none;
     }
 
@@ -161,37 +463,38 @@
     }
 
     .name-item-carousel {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
-        color: #f8aa75;
+        color: rgb(252, 211, 79);
+        font-family: 'CosmosNormal';
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
         /**********************************INFOS********************************/
 
     #info-asteroid-connu {
-        width: 25em;
-        height: 20em;
+        width: 80em;
+        height: auto;
         position: relative;
-        margin-top: 25%;  
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        perspective: 400em;
-        transform-style: preserve-3d;
-        
+        margin: 0 auto; 
+        top: 250px;  
+        background-image: url(/assets/fond-etoile.jpg);
+        border-radius: 15px;
     }
 
     .item2 {
         width: 100%;
-        height: 100%;
+        height: auto;
         text-align: center;
-        background-image: url(/assets/fond-etoile.jpg);
-        color: rgb(252, 211, 79);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: rgb(199, 120, 46);
         border: 2px solid #2cabcf;
-        border-radius: 10px;
+        border-radius: 15px;
+        font-family: 'CosmosNormal';
+        line-height: 0.8em;
         padding: 0.5em;
-        font-size: 22px;
+        font-size: 45px;
     }
 
 
@@ -221,43 +524,37 @@
     .item img {
         width: 100%;
         height: 100%;
+        margin-bottom: 1em;
     }
 
     /****************************BOUTON**************************/
 
     #button-left-carousel {
+        cursor: pointer;
         border: none;
-        position: relative;
-        margin-left: 18.35%;
         background: rgba(0, 0, 0, 0); 
         outline-style: none;
+        height: 25vw;
     }
 
     #button-right-carousel {
+        cursor: pointer;
         border: none; 
-        position: relative;
-        margin-left: 55.9%; 
-        background: rgba(0, 0, 0, 0); 
+        background: rgba(0, 0, 0, 0);
         outline-style: none;
+        margin-left: 22.5em;
+        height: 25vw;
     }
 
     .button-aste {
-        position: relative;
+        position: absolute;
+        top: 17.7em;
+        left: 20em;
         z-index: 2;
-        margin-top: -52%;
-        padding-left: 1%;
-    }
-
-    #button-right-carousel {
-        margin-left: 50.4%;
-        
-    }
-
-    #button-left-carousel {
-        padding-left: 3.1%;
     }
 
     #carousel-asteroid {
-        height: 3em;
+        height: 6em;
+        
     }
 }

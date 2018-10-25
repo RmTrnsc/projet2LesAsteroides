@@ -1,20 +1,40 @@
 <div id="topBar">
   <a  id="acceuil"href="#">
-    <button routerLink="/Accueil">Accueil</button>
+    <button routerLink="/Accueil"><img src="/assets/Sans-titre-3.jpg" width="150vw"><p>Return to home</p></button>
   </a>
   <p id="title">{{ title }}</p>    
   <a href="https://www.nasa.gov/" target="_blank"><img id="logo-nasa" src="../assets/nasa-logo.png" alt="logo nasa" width="90vw" height="80vw"></a>
 </div>
-<div id="title-category">
-  <div id="title-categoryKuiperBelt">
-    <a routerLink="/Trojan asteroid">Trojan asteroid</a>
-  </div>
-  <div id="title-categoryYouKnow">
-    <a routerLink="/You know this?">You know this ?</a>
-  </div>
-  <div id="title-categoryApprochEarth">
-    <a routerLink="/Under approach">Daily news</a>
-  </div>
+<div class="btn-navigation">
+  <div class="barre"></div>
+  <div class="barre"></div>
+  <div class="barre"></div>
 </div>
-  
-  <router-outlet></router-outlet>
+<div class="navigation">
+  <ul>
+    <div id="title-category">
+      <li>
+        <div id="acceuilMenuBurger">
+          <a href="#">Home</a>
+        </div>
+      </li>
+      <li>
+        <div id="title-categoryKuiperBelt">
+          <a routerLink="/Trojan asteroid">Trojan asteroid</a>
+        </div>
+      </li>
+      <li>
+        <div id="title-categoryYouKnow">
+          <a routerLink="/You know this?">You know this ?</a>
+        </div>
+      </li>
+      <li>
+        <div id="title-categoryApprochEarth">
+          <a routerLink="/Under approach">Asteroid news</a>
+        </div>
+      </li>
+    </div>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>
