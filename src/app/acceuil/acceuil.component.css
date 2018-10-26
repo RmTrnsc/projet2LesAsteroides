@@ -20,9 +20,9 @@
     }
     p {
         text-align: center;
-        font-size: 45px;
+        font-size: 25px;
         line-height: 1em;
-        font-family: 'CosmosNormal';
+        font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: #fff;
@@ -39,9 +39,9 @@
         border: 1px solid #2cabcf;
         border-radius: 15px;
         text-align: center;
-        font-size: 45px;
+        font-size: 25px;
         line-height: 1em;
-        font-family: 'CosmosNormal';
+        font-family: 'DataLatin';
         color: #fff;
     }
     #footerContainer {
@@ -58,15 +58,15 @@
         border: 1px solid #2cabcf;
         border-radius: 15px;
         text-align: center;
-        font-size: 45px;
+        font-size: 25px;
         line-height: 1em;
-        font-family: 'CosmosNormal';
+        font-family: 'DataLatin';
         color: #fff;
     }
     
      /*.............. footer link effect.................. */
      .portfolio-experiment, .scene {
-        width: 5em;
+        width: 8em;
         height: 2em;
         overflow: hidden;
         margin: 0 auto;
@@ -81,11 +81,11 @@
         display: inline-block;
         border: 3px solid transparent;
         position: relative;
-        font-size: 45px;
+        font-size: 20px;
         cursor: pointer;
       }
       .portfolio-experiment a .text {
-        font-family: 'CosmosNormal';
+        font-family: 'DataLatin';
         transform: translate3d(0, 0.7em, 0);
         display: block;
         transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1) 0.4s;
@@ -194,7 +194,7 @@
         text-align: center;
         font-size: 40px;
         line-height: 0.8em;
-        font-family: 'CosmosNormal';
+        font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: #fff;
@@ -243,7 +243,7 @@
         text-align: center;
         font-size: 60px;
         line-height: 0.8em;
-        font-family: 'CosmosNormal';
+        font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: #fff;
@@ -294,7 +294,7 @@
       text-align: center;
       font-size: 60px;
       line-height: 0.8em;
-      font-family: 'CosmosNormal';
+      font-family: 'DataLatin';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
       color: #fff;
