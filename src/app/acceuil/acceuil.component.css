@@ -192,8 +192,8 @@
     }
     p {
         text-align: center;
-        font-size: 40px;
-        line-height: 0.8em;
+        font-size: 20px;
+        line-height: 1em;
         font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
@@ -241,8 +241,8 @@
     }
     p {
         text-align: center;
-        font-size: 60px;
-        line-height: 0.8em;
+        font-size: 20px;
+        line-height: 1em;
         font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
@@ -292,8 +292,8 @@
     }
     p {
       text-align: center;
-      font-size: 60px;
-      line-height: 0.8em;
+      font-size: 35px;
+      line-height: 1em;
       font-family: 'DataLatin';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;

@@ -53,7 +53,7 @@
         text-align: center;
         font-size: 25px;
         line-height: 1em;
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         line-height: 0.7em;
         border-radius: 15px;
@@ -75,7 +75,7 @@
         text-align: center;
         font-size: 25px;
         line-height: 1em;
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         color: #fff;
     }
     #footerContainer {
@@ -95,7 +95,7 @@
         text-align: center;
         font-size: 25px;
         line-height: 1em;
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         color: #fff;
     }
     
@@ -120,7 +120,7 @@
         cursor: pointer;
       }
       .portfolio-experiment a .text {
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         transform: translate3d(0, 0.7em, 0);
         display: block;
         transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1) 0.4s;
@@ -223,7 +223,7 @@
     .name-item-carousel {
         text-align: center;
         color: #fff;
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         font-weight: bold;
         font-size: 3em;
     }
@@ -247,7 +247,7 @@
         background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
         color: #fff;
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         font-weight: bold;
         font-size: 3em;
     }
@@ -274,7 +274,7 @@
         color: rgb(255, 255, 255);
         border: 2px solid #2cabcf;
         border-radius: 10px;
-        font-family: 'DataLatin';
+        font-family: 'Datalatin';
         line-height: 0.8em;
         padding: 0.3em;
         font-size: 45px;
@@ -374,22 +374,22 @@
         width: 50vw;
         height: 8vw;
         text-align: center;
-        font-size: 60px;
-        font-family: 'DataLatin';
+        font-size: 35px;
+        font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
         color: #fff;
     }
     .asteroid-text {
         padding: 0.4em;
-        font-size: 80px;
-        font-family: 'DataLatin';
-        line-height: 0.8em;
+        font-size: 35px;
+        font-family: 'Datalatin';
+        line-height: 1em;
     }
     p {
         text-align: center;
-        font-size: 60px;
-        line-height: 0.8em;
-        font-family: 'DataLatin';
+        font-size: 35px;
+        line-height: 1em;
+        font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: #fff;
@@ -454,22 +454,22 @@
         width: 50vw;
         height: auto;
         text-align: center;
-        font-size: 35px;
-        font-family: 'DataLatin';
+        font-size: 20px;
+        font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
         color: #fff;
     }
     .asteroid-text {
         padding: 0.2em;
-        font-size: 40px;
-        font-family: 'DataLatin';
-        line-height: 0.8em;
+        font-size: 20px;
+        font-family: 'Datalatin';
+        line-height: 1em;
     }
     p {
         text-align: center;
-        font-size: 40px;
-        line-height: 0.8em;
-        font-family: 'DataLatin';
+        font-size: 20px;
+        line-height: 1em;
+        font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: #fff;
@@ -532,22 +532,22 @@
         width: 50vw;
         height: auto;
         text-align: center;
-        font-size: 45px;
-        font-family: 'DataLatin';
+        font-size: 20px;
+        font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
         color: #fff;
     }
     .asteroid-text {
         padding: 0.2em;
-        font-size: 45px;
-        font-family: 'DataLatin';
-        line-height: 0.8em;
+        font-size: 20px;
+        font-family: 'Datalatin';
+        line-height: 1em;
     }
     p {
         text-align: center;
-        font-size: 45px;
-        line-height: 0.8em;
-        font-family: 'DataLatin';
+        font-size: 20px;
+        line-height: 1em;
+        font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
         color: #fff;

@@ -96,14 +96,14 @@
     #image-de-fond1 {
         position: absolute;
         width: 100vw;
-        height: 610vw;
+        height: 620vw;
         z-index: -1;
     }
 
     #image-de-fond2 {
         position: absolute;
         width: 100vw;
-        height: 610vw;
+        height: 620vw;
         z-index: -1;
         opacity: 0.3;
     }
