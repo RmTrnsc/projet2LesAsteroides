@@ -27,7 +27,7 @@
 }
 
 .asteroid-text {
-    color: rgb(199, 120, 46);
+    color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 28px;
     text-align: center;
@@ -57,15 +57,17 @@
         background-color: rgba(0, 0, 0, 0.7);
         line-height: 0.7em;
         border-radius: 15px;
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     #footerDesktop {
         position: absolute;
         top: 100em;
+        left: 10em;
+        width: 100em;
     }
     #footerIntro {
-        width: 50%;
-        margin: 0 auto;
+        width: 55%;
+        margin-left: 7.5em;
         padding: 0.3em;
         background-color: rgba(4, 138, 201, 0.459);
         border: 1px solid #2cabcf;
@@ -74,7 +76,7 @@
         font-size: 45px;
         line-height: 1em;
         font-family: 'CosmosNormal';
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     #footerContainer {
         display:flex;
@@ -94,7 +96,7 @@
         font-size: 45px;
         line-height: 1em;
         font-family: 'CosmosNormal';
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     
      /*.............. footer link effect.................. */
@@ -108,7 +110,7 @@
           margin-bottom: 0.2em;
       }
       .portfolio-experiment a {
-        color: rgb(235, 117, 38);
+        color: #fff;
         border-radius: 15px;
         padding: 0.4em;
         display: inline-block;
@@ -220,7 +222,7 @@
 
     .name-item-carousel {
         text-align: center;
-        color: rgb(252, 211, 79);
+        color: #fff;
         font-family: 'CosmosNormal';
         font-weight: bold;
         font-size: 3em;
@@ -244,7 +246,7 @@
     .name-item-carousel {
         background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
-        color: rgb(252, 211, 79);
+        color: #fff;
         font-family: 'CosmosNormal';
         font-weight: bold;
         font-size: 3em;
@@ -329,7 +331,7 @@
     .button-aste {
         position: absolute;
         top: 37em;
-        left: 20em;
+        left: 31em;
         z-index: 2;
     }
 
@@ -375,7 +377,7 @@
         font-size: 60px;
         font-family: 'CosmosNormal';
         background-color: rgb(0, 0, 0);
-        color: rgb(252, 211, 79);
+        color: #fff;
     }
     .asteroid-text {
         padding: 0.4em;
@@ -390,7 +392,7 @@
         font-family: 'CosmosNormal';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     /* footer desktop */
 
@@ -455,7 +457,7 @@
         font-size: 35px;
         font-family: 'CosmosNormal';
         background-color: rgb(0, 0, 0);
-        color: rgb(252, 211, 79);
+        color: #fff;
     }
     .asteroid-text {
         padding: 0.2em;
@@ -470,7 +472,7 @@
         font-family: 'CosmosNormal';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     /* footer desktop */
 
@@ -533,7 +535,7 @@
         font-size: 45px;
         font-family: 'CosmosNormal';
         background-color: rgb(0, 0, 0);
-        color: rgb(252, 211, 79);
+        color: #fff;
     }
     .asteroid-text {
         padding: 0.2em;
@@ -548,7 +550,7 @@
         font-family: 'CosmosNormal';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     /* footer desktop */
 

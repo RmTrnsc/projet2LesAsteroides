@@ -16,7 +16,7 @@
         background-color: rgba(0, 0, 0, 0.7);
         line-height: 0.7em;
         border-radius: 15px;
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     #footerIntro {
         width: 50%;
@@ -30,7 +30,7 @@
         font-size: 45px;
         line-height: 1em;
         font-family: 'CosmosNormal';
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     #footerContainer {
         display:flex;
@@ -50,7 +50,7 @@
         font-size: 45px;
         line-height: 1em;
         font-family: 'CosmosNormal';
-        color: rgb(235, 117, 38);
+        color: #fff;
     }
     
     /*.............. footer link effect.................. */
@@ -64,7 +64,7 @@
         margin-bottom: 0.2em;
     }
     .portfolio-experiment a {
-      color: rgb(235, 117, 38);
+      color: #fff;
       border-radius: 15px;
       padding: 0.4em;
       display: inline-block;
@@ -234,7 +234,7 @@
       font-family: 'CosmosNormal';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
-      color: rgb(235, 117, 38);
+      color: #fff;
     }
     .title-article {
       color: #fff;
@@ -301,7 +301,8 @@
         font-family: 'CosmosNormal';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: rgb(235, 117, 38);
+        color: #fff;
+        letter-spacing: 0.8px;
         flex-wrap: wrap; 
     }
 
@@ -362,7 +363,7 @@
       font-family: 'CosmosNormal';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
-      color: rgb(235, 117, 38);
+      color: #fff;
     }
 
     /* footer desktop */

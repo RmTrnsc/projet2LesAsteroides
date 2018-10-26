@@ -16,9 +16,10 @@ button {
 button p {
     position: absolute;
     top: 35px;
-    left: 40px;
-    color: rgb(199, 120, 46);
+    left: 18px;
+    color: #fff;
     opacity: 0;
+    font-size: 22px;
 }
     /* .......title....... */
 
@@ -40,11 +41,11 @@ button p {
     /*..............title..............*/
 
     #logo-nasa {
-        margin-left: 34.5em;
+        margin-left: 40.5em;
         margin-top: 1em;
     }
     #title {
-        margin-left: 5.5em;
+        margin-left: 7.5em;
         color: rgb(199, 120, 46);
         font-size: 5em;
     }
@@ -52,9 +53,12 @@ button p {
 
     #title-category {
         display: flex;
-        margin-left: 16em;
+        margin-left: 25em;
         margin-top: 2em;
         margin-bottom: 5em;
+    }
+    #title-category a {
+        color: #fff;
     }
     /*....... category......... */
 
@@ -193,7 +197,7 @@ button p {
     .btn-navigation .barre {
         width: 30px;
         height: 2px;
-        background: rgb(199, 120, 46);
+        background: #fff;
         margin-top: 5px;
         z-index: 20;
     }
@@ -229,7 +233,7 @@ button p {
         z-index: 20;
     }
     .navigation ul li a{
-        color: rgb(199, 120, 46);
+        color: #fff;
         font-family: 'DataLatin';
         text-transform: uppercase;
         font-size: 20px;
@@ -275,7 +279,7 @@ button p {
     .btn-navigation .barre ,.btn-navigation .barre1{
         width: 30px;
         height: 2px;
-        background: rgb(199, 120, 46);
+        background: #fff;
         margin-top: 5px;
         z-index: 20;
     }
@@ -312,7 +316,7 @@ button p {
         z-index: 20;
     }
     .navigation ul li a{
-        color: rgb(199, 120, 46);
+        color: #fff;
         font-family: 'DataLatin';
         text-transform: uppercase;
         font-size: 16px;
