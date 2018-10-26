@@ -29,6 +29,7 @@
 /* -----------media query desktop version --------------*/
 
 @media only screen and (min-device-width: 1025px){
+    
     ::-webkit-scrollbar {
         display: none;
     }
