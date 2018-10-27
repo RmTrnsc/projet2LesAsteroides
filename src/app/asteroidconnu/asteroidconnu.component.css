@@ -59,15 +59,9 @@
         border-radius: 15px;
         color: #fff;
     }
-    #footerDesktop {
-        position: absolute;
-        top: 100em;
-        left: 10em;
-        width: 100em;
-    }
     #footerIntro {
         width: 55%;
-        margin-left: 7.5em;
+        margin: 0 auto;
         padding: 0.3em;
         background-color: rgba(4, 138, 201, 0.459);
         border: 1px solid #2cabcf;
@@ -275,10 +269,10 @@
         border: 2px solid #2cabcf;
         border-radius: 10px;
         font-family: 'Datalatin';
-        line-height: 0.8em;
         padding: 0.3em;
         font-size: 45px;
     }
+    
 
 
     /*********************************CAROUSEL*******************************/
