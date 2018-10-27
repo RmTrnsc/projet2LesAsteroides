@@ -17,7 +17,7 @@ button p {
     position: absolute;
     top: 35px;
     left: 18px;
-    color: #fff;
+    color: rgb(199, 120, 46);
     opacity: 0;
     font-size: 22px;
 }
@@ -58,7 +58,7 @@ button p {
         margin-bottom: 5em;
     }
     #title-category a {
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /*....... category......... */
 
@@ -159,7 +159,7 @@ button p {
         font-size: 28px;
         padding: 0.4em;
         margin-right: 0.7em;
-        color: #fff;
+        color: rgb(199, 120, 46);
         text-align: center;
         border: 1px solid #2cabcf;
         text-decoration: none;
@@ -172,7 +172,7 @@ button p {
         border-radius: 25px;
         font-size: 28px;
         padding: 0.4em;
-        color: #fff;
+        color: rgb(199, 120, 46);
         text-align: center;
         border: 1px solid #2cabcf;
         text-decoration: none;
@@ -186,7 +186,7 @@ button p {
 @media only screen and (min-device-width: 376px) and (max-device-width: 667px) {
 
     /*....... menu burger ....... */
-
+    
     .btn-navigation {
         position: absolute;
         position: fixed;
@@ -197,7 +197,7 @@ button p {
     .btn-navigation .barre {
         width: 30px;
         height: 2px;
-        background: #fff;
+        background: rgb(199, 120, 46);
         margin-top: 5px;
         z-index: 20;
     }
@@ -233,7 +233,7 @@ button p {
         z-index: 20;
     }
     .navigation ul li a{
-        color: #fff;
+        color: rgb(199, 120, 46);
         font-family: 'DataLatin';
         text-transform: uppercase;
         font-size: 20px;
@@ -279,7 +279,7 @@ button p {
     .btn-navigation .barre ,.btn-navigation .barre1{
         width: 30px;
         height: 2px;
-        background: #fff;
+        background: rgb(199, 120, 46);
         margin-top: 5px;
         z-index: 20;
     }
@@ -316,7 +316,7 @@ button p {
         z-index: 20;
     }
     .navigation ul li a{
-        color: #fff;
+        color: rgb(199, 120, 46);
         font-family: 'DataLatin';
         text-transform: uppercase;
         font-size: 16px;

@@ -26,7 +26,7 @@
 }
 
 .asteroid-text {
-    color: #fff;
+    color: rgb(199, 120, 46);
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 28px;
     text-align: center;
@@ -81,7 +81,7 @@
         font-size: 35px;
         font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     .asteroid-text {
         padding: 0.4em;
@@ -96,7 +96,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /* footer desktop */
 
@@ -114,7 +114,7 @@
           margin-top: 4em;
       }
       #footerMobile a{
-          color: #fff;
+          color: rgb(199, 120, 46);
           margin-left: 40%;
           margin-bottom: 1em;
           font-size: 25px;
@@ -160,7 +160,7 @@
         font-size: 20px;
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.6);
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     .asteroid-text {
         padding: 0.2em;
@@ -175,7 +175,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /* footer desktop */
 
@@ -192,7 +192,7 @@
         margin: 5em 1em 1em 1em;
       }
       #footerMobile a{
-        color: #fff;
+        color: rgb(199, 120, 46);
         margin-left: 7em;
         margin-bottom: 1em;
       }
@@ -242,7 +242,7 @@
         font-size: 25px;
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.6);
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     .asteroid-text {
         font-size: 25px;
@@ -257,7 +257,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /* footer desktop */
 
@@ -275,7 +275,7 @@
         margin-top: 2em;
       }
       #footerMobile a{
-        color: #fff;
+        color: rgb(199, 120, 46);
         margin-left: 6em;
         margin-bottom: 1em;
         font-size: 25px;
@@ -307,7 +307,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     #footerDesktop {
         position: absolute;
@@ -327,7 +327,7 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'Datalatin';
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     #footerContainer {
         display:flex;
@@ -347,7 +347,7 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'Datalatin';
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     
      /*.............. footer link effect.................. */
@@ -361,7 +361,7 @@
           margin-bottom: 0.2em;
       }
       .portfolio-experiment a {
-        color: #fff;
+        color: rgb(199, 120, 46);
         border-radius: 15px;
         padding: 0.4em;
         display: inline-block;
@@ -469,12 +469,13 @@
     }
 
     .name-item-carousel {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgb(0, 0, 0);
         text-align: center;
         color: rgb(252, 211, 79);
         font-family: 'Datalatin';
         font-weight: bold;
         font-size: 2em;
+        padding: 0.5em;
     }
 
         /**********************************INFOS********************************/
@@ -494,7 +495,7 @@
         height: auto;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.7);
-        color: #fff;
+        color: rgb(199, 120, 46);
         border: 2px solid #2cabcf;
         border-radius: 15px;
         font-family: 'Datalatin';
@@ -503,7 +504,6 @@
         font-size: 25px;
     }
     
-
 
     /*********************************CAROUSEL*******************************/
 
@@ -517,7 +517,6 @@
         transform-style: preserve-3d;
         z-index: 1;
     }
-
     .carousel .item {
         width: 100%;
         height: 100%;
@@ -526,7 +525,6 @@
     }
 
     /********************************************************************************/
-
 
     .item img {
         width: 100%;
@@ -539,27 +537,34 @@
     #button-left-carousel {
         cursor: pointer;
         border: none;
+        color: #2cabcf;
+        font-size: 2em;
         background: rgba(0, 0, 0, 0); 
         outline-style: none;
         height: 25vw;
     }
-
     #button-right-carousel {
         cursor: pointer;
         border: none; 
+        color: #2cabcf;
+        font-size: 2em;
         background: rgba(0, 0, 0, 0);
         outline-style: none;
-        margin-left: 22.5em;
+        margin-left: 27em;
         height: 25vw;
     }
-
     .button-aste {
         position: absolute;
         top: 17.7em;
-        left: 31em;
+        left: 20em;
         z-index: 2;
     }
-
+    #button-left-carousel:hover {
+        color: rgb(199, 120, 46);
+    }
+    #button-right-carousel:hover {
+        color: rgb(199, 120, 46);
+    }
     #carousel-asteroid {
         height: 6em;
         

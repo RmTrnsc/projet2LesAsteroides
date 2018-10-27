@@ -27,7 +27,7 @@
 }
 
 .asteroid-text {
-    color: #fff;
+    color: rgb(199, 120, 46);
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 28px;
     text-align: center;
@@ -55,9 +55,9 @@
         line-height: 1em;
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
-        line-height: 0.7em;
+        line-height: 1em;
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     #footerIntro {
         width: 55%;
@@ -70,7 +70,7 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'Datalatin';
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     #footerContainer {
         display:flex;
@@ -90,7 +90,7 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'Datalatin';
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     
      /*.............. footer link effect.................. */
@@ -104,7 +104,7 @@
           margin-bottom: 0.2em;
       }
       .portfolio-experiment a {
-        color: #fff;
+        color: rgb(199, 120, 46);
         border-radius: 15px;
         padding: 0.4em;
         display: inline-block;
@@ -209,14 +209,12 @@
     #carouselSmartphoneTablette {
         display: none;
     }
-
     .carousel {
         margin-top: 16em;
     }
-
     .name-item-carousel {
         text-align: center;
-        color: #fff;
+        color: rgb(199, 120, 46);
         font-family: 'Datalatin';
         font-weight: bold;
         font-size: 3em;
@@ -224,26 +222,23 @@
     #carouselSmartphoneTablette {
         display: none;
     }
-
     #name {
         margin-top: 5.3em;
     }
-
     .carousel {
         margin-top: 14em;
     }
-
     #name {
         display: none;
     }
-
     .name-item-carousel {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgb(0, 0, 0);
         text-align: center;
-        color: #fff;
+        color: rgb(199, 120, 46);
         font-family: 'Datalatin';
         font-weight: bold;
         font-size: 3em;
+        padding: 0.3em;
     }
 
         /**********************************INFOS********************************/
@@ -260,7 +255,7 @@
     }
     .item2 {
         width: 100%;
-        height: 100%;
+        height: 32vw;
         text-align: center;
         position: absolute; 
         transition: transform 1s;
@@ -311,24 +306,31 @@
         background: rgba(0, 0, 0, 0); 
         outline-style: none;
         height: 25vw;
+        font-size: 2em;
+        color: #2cabcf;
     }
-
     #button-right-carousel {
         cursor: pointer;
         border: none; 
         background: rgba(0, 0, 0, 0);
         outline-style: none;
-        margin-left: 22.5em;
+        margin-left: 27.5em;
         height: 25vw;
+        font-size: 2em;
+        color: #2cabcf;
     }
-
     .button-aste {
         position: absolute;
         top: 37em;
-        left: 31em;
+        left: 20em;
         z-index: 2;
     }
-
+    #button-right-carousel:hover {
+        color: rgb(199, 120, 46);
+    }
+    #button-left-carousel:hover {
+        color: rgb(199, 120, 46);
+    }
     #carousel-asteroid {
         height: 6em;
     }
@@ -371,7 +373,7 @@
         font-size: 35px;
         font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     .asteroid-text {
         padding: 0.4em;
@@ -386,7 +388,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /* footer desktop */
 
@@ -404,7 +406,7 @@
           margin-top: 4em;
       }
       #footerMobile a{
-          color: #fff;
+          color: rgb(199, 120, 46);
           margin-left: 40%;
           margin-bottom: 1em;
           font-size: 25px;
@@ -451,7 +453,7 @@
         font-size: 20px;
         font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     .asteroid-text {
         padding: 0.2em;
@@ -466,7 +468,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /* footer desktop */
 
@@ -483,7 +485,7 @@
         margin: 5em 1em 1em 1em;
       }
       #footerMobile a{
-        color: #fff;
+        color: rgb(199, 120, 46);
         margin-left: 7em;
         margin-bottom: 1em;
       }
@@ -529,7 +531,7 @@
         font-size: 20px;
         font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     .asteroid-text {
         padding: 0.2em;
@@ -544,7 +546,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     /* footer desktop */
 
@@ -562,7 +564,7 @@
       margin-top: 4em;
     }
     #footerMobile a{
-      color: #fff;
+      color: rgb(199, 120, 46);
       margin-left: 6em;
       margin-bottom: 1em;
       font-size: 25px;

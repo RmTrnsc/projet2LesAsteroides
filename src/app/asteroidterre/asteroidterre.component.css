@@ -14,9 +14,8 @@
         line-height: 1em;
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
-        line-height: 0.7em;
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     #footerIntro {
         width: 50%;
@@ -30,9 +29,9 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'Datalatin';
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
-    #footerContainer {
+    #footer {
         display:flex;
         margin: 2em;
     }
@@ -50,7 +49,7 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'Datalatin';
-        color: #fff;
+        color: rgb(199, 120, 46);
     }
     
     /*.............. footer link effect.................. */
@@ -64,7 +63,7 @@
         margin-bottom: 0.2em;
     }
     .portfolio-experiment a {
-      color: #fff;
+      color: rgb(199, 120, 46);
       border-radius: 15px;
       padding: 0.4em;
       display: inline-block;
@@ -175,8 +174,8 @@
         align-content: space-between;
         margin-right: 4em;
         font-size: 25px;
-        line-height: 0.8em;
-        color: #fff;
+        line-height: 1em;
+        color: rgb(199, 120, 46);
         border: 1px solid #2cabcf;
         border-radius: 25px;
         font-family: 'Datalatin';
@@ -193,7 +192,7 @@
     }
     .title-article {
         font-size: 25px;
-        color: #fff;
+        color: rgb(199, 120, 46);
         font-family: 'DataLatin';
         text-align: center;
         font-weight: bold;
@@ -219,7 +218,7 @@
       font-size: 35px;
       line-height: 1em;
       margin-bottom: 2em;
-      color: #fff;
+      color: rgb(199, 120, 46);
       border: 1px solid #2cabcf;
       border-radius: 15px;
       font-family: 'Datalatin';
@@ -234,10 +233,10 @@
       font-family: 'Datalatin';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
-      color: #fff;
+      color: rgb(199, 120, 46);
     }
     .title-article {
-      color: #fff;
+      color: rgb(199, 120, 46);
     }
 
     /* footer desktop */
@@ -256,7 +255,7 @@
         margin-top: 4em;
     }
     #footerMobile a{
-        color: #fff;
+        color: rgb(199, 120, 46);
         margin-left: 40%;
         margin-bottom: 1em;
         font-size: 25px;
@@ -301,7 +300,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);
         letter-spacing: 0.8px;
         flex-wrap: wrap; 
     }
@@ -321,7 +320,7 @@
       margin: 1em;
     }
     #footerMobile a{
-      color: #fff;
+      color: rgb(199, 120, 46);
       margin-left: 7.5em;
       margin-bottom: 1em;
     }
@@ -363,7 +362,7 @@
       font-family: 'Datalatin';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
-      color: #fff;
+      color: rgb(199, 120, 46);
     }
 
     /* footer desktop */
@@ -381,7 +380,7 @@
       margin-left: 10.5em;
     }
     #footerMobile a{
-      color: #fff;
+      color: rgb(199, 120, 46);
       margin-left: 7em;
       margin-bottom: 1em;
       font-size: 25px;

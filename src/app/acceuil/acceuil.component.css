@@ -11,38 +11,38 @@
     /********** fin footer **********/
 
     #textAcceuil {
-        margin: 0 auto;
-        width: 50vw;
-        border: 2px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
-        border-radius: 20px;
-        padding: 1em;
+      margin: 0 auto;
+      width: 50vw;
+      border: 2px solid #2cabcf;
+      background-image: url(/assets/fond-etoile.jpg);
+      border-radius: 20px;
+      padding: 1em;
     }
     p {
-        text-align: center;
-        font-size: 25px;
-        line-height: 1em;
-        font-family: 'DataLatin';
-        background-color: rgba(0, 0, 0, 0.7);
-        border-radius: 15px;
-        color: #fff;
+      text-align: center;
+      font-size: 25px;
+      line-height: 1em;
+      font-family: 'DataLatin';
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      color: rgb(199, 120, 46);;
     }
 
     /*............. footer........... */
     
     #footerIntro {
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 2em;
-        padding: 0.3em;
-        background-color: rgba(3, 79, 114, 0.747);
-        border: 1px solid #2cabcf;
-        border-radius: 15px;
-        text-align: center;
-        font-size: 25px;
-        line-height: 1em;
-        font-family: 'DataLatin';
-        color: #fff;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 2em;
+      padding: 0.3em;
+      background-color: rgba(3, 79, 114, 0.747);
+      border: 1px solid #2cabcf;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 25px;
+      line-height: 1em;
+      font-family: 'DataLatin';
+      color: rgb(199, 120, 46);;
     }
     #footerContainer {
         display:flex;
@@ -61,7 +61,7 @@
         font-size: 25px;
         line-height: 1em;
         font-family: 'DataLatin';
-        color: #fff;
+        color: rgb(199, 120, 46);;
     }
     
      /*.............. footer link effect.................. */
@@ -75,7 +75,7 @@
           margin-bottom: 0.2em;
       }
       .portfolio-experiment a {
-        color: #fff;
+        color: rgb(199, 120, 46);;
         border-radius: 15px;
         padding: 0.4em;
         display: inline-block;
@@ -197,7 +197,7 @@
         font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);;
     }
 
     /* footer desktop */
@@ -215,7 +215,7 @@
       margin: 5em 1em 1em 1em;
     }
     #footerMobile a{
-      color: #fff;
+      color: rgb(199, 120, 46);;
       margin-left: 7.5em;
       margin-bottom: 1em;
     }
@@ -246,7 +246,7 @@
         font-family: 'DataLatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
-        color: #fff;
+        color: rgb(199, 120, 46);;
     }
     /* footer desktop */
 
@@ -264,7 +264,7 @@
       margin-top: 2em;
     }
     #footerMobile a{
-      color: #fff;
+      color: rgb(199, 120, 46);;
       margin-left: 5.5em;
       margin-bottom: 1em;
       font-size: 25px;
@@ -280,49 +280,47 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width: 1024px){
 
-    #textAcceuil {
-        margin-left: 20%;
-        margin-top: 5em;
-        width: 100vw;
-        height: auto;
-        border: 2px solid #2cabcf;
-        background-image: url(/assets/fond-etoile.jpg);
-        border-radius: 40px;
-        padding: 2em;
-    }
-    p {
-      text-align: center;
-      font-size: 35px;
-      line-height: 1em;
-      font-family: 'DataLatin';
-      background-color: rgba(0, 0, 0, 0.7);
-      border-radius: 15px;
-      color: #fff;
+  #textAcceuil {
+    margin-left: 20%;
+    margin-top: 5em;
+    width: 100vw;
+    height: auto;
+    border: 2px solid #2cabcf;
+    background-image: url(/assets/fond-etoile.jpg);
+    border-radius: 40px;
+    padding: 2em;
+  }
+  p {
+    text-align: center;
+    font-size: 35px;
+    line-height: 1em;
+    font-family: 'DataLatin';
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    color: rgb(199, 120, 46);;
   }
   /* footer desktop */
 
   #footerIntro {
-      display: none;
-    }
-    #footerContainer {
-      display: none;
-    }
+    display: none;
+  }
+  #footerContainer {
+    display: none;
+  }
+  /* footer mobile */
 
-    /* footer mobile */
-
-    #footerMobile {
-        margin-left: 35%;
-        margin-top: 4em;
-    }
-    #footerMobile a{
-        color: #fff;
-        margin-left: 40%;
-        margin-bottom: 1em;
-        font-size: 25px;
-      }
-
-    .footerMobileContributor {
-      margin-bottom: 1em;
-      margin-top: 1em;
-    }
+  #footerMobile {
+    margin-left: 35%;
+    margin-top: 4em;
+  }
+  #footerMobile a{
+    color: rgb(199, 120, 46);;
+    margin-left: 40%;
+    margin-bottom: 1em;
+    font-size: 25px;
+  }
+  .footerMobileContributor {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
 }
