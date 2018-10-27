@@ -175,7 +175,6 @@
         align-content: space-between;
         margin-right: 4em;
         font-size: 25px;
-        line-height: 0.8em;
         color: #fff;
         border: 1px solid #2cabcf;
         border-radius: 25px;
@@ -185,6 +184,9 @@
         width: 70vw;
         height: auto;
         margin-bottom: 2em;
+    }
+    .text-information p {
+      line-height: 1em;
     }
     .image-daily-news{
         width: 90%;

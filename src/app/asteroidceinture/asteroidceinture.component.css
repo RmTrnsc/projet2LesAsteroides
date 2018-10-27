@@ -312,7 +312,7 @@
     #footerDesktop {
         position: absolute;
         top: 79em;
-        left: 0;
+        left: 10em;
         width: 100em;
     }
     #footerIntro {

@@ -29,7 +29,9 @@
     }
 
     /*............. footer........... */
-    
+    #footerDesktop {
+      margin-top: 2em;
+    }
     #footerIntro {
         width: 50%;
         margin: 0 auto;
@@ -59,15 +61,14 @@
         border-radius: 15px;
         text-align: center;
         font-size: 25px;
-        line-height: 1em;
         font-family: 'DataLatin';
         color: #fff;
     }
     
      /*.............. footer link effect.................. */
      .portfolio-experiment, .scene {
-        width: 8em;
-        height: 2em;
+        width: 10em;
+        height: 2.5em;
         overflow: hidden;
         margin: 0 auto;
       }
