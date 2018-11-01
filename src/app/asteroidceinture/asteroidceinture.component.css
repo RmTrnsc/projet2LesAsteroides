@@ -310,9 +310,8 @@
         color: rgb(199, 120, 46);
     }
     #footerDesktop {
-        position: absolute;
-        top: 75em;
-        left: 0;
+        margin: 0 auto;
+        margin-top: 18em;
         width: 80em;
     }
     #footerIntro {
@@ -556,7 +555,7 @@
     .button-aste {
         position: absolute;
         top: 17.7em;
-        left: 10em;
+        left: 22em;
         z-index: 2;
     }
     #button-left-carousel:hover {

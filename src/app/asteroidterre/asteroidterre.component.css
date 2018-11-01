@@ -15,6 +15,7 @@
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 15px;
+        letter-spacing: 1px;
         color: rgb(199, 120, 46);
     }
     #footerIntro {
@@ -166,9 +167,9 @@
   /* ******body page****** */
 
   .nasa-information {
-        padding: 1em;
-        margin-left: 10em;
-        margin-top: 3em;        
+      padding: 1em;
+      margin-left: 24em;
+      margin-top: 3em; 
     }
     .text-information {
         align-content: space-between;
@@ -180,7 +181,7 @@
         font-family: 'Datalatin';
         background-image: url(/assets/fond-etoile1.png);
         padding: 0.5em;
-        width: 70vw;
+        width: 50vw;
         height: auto;
         margin-bottom: 2em;
     }

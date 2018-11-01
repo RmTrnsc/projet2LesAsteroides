@@ -59,6 +59,8 @@
         color: rgb(199, 120, 46);
     }
     #footerDesktop {
+        margin: 0 auto;
+        margin-top: 5em;
         width: 80em;
     }
     #footerIntro {
@@ -260,6 +262,7 @@
         width: 100%;
         height: 28vw;
         text-align: center;
+        letter-spacing: 1px;
         position: absolute; 
         transition: transform 1s;
         background-image: url(/assets/fond-etoile.jpg);
@@ -268,7 +271,7 @@
         border-radius: 10px;
         font-family: 'Datalatin';
         padding: 0.3em;
-        font-size: 20px;
+        font-size: 22px;
     }
     
 
@@ -325,7 +328,7 @@
     .button-aste {
         position: absolute;
         top: 37em;
-        left: 10em;
+        left: 20em;
         z-index: 2;
     }
     #button-right-carousel:hover {

@@ -45,7 +45,7 @@ button p {
         margin-top: 1em;
     }
     #title {
-        margin-left: 6em;
+        margin-left: 8em;
         color: rgb(199, 120, 46);
         font-size: 4em;
     }
@@ -53,7 +53,7 @@ button p {
 
     #title-category {
         display: flex;
-        margin-left: 6em;
+        margin-left: 14em;
         margin-top: 2em;
         margin-bottom: 5em;
     }

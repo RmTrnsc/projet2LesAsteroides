@@ -8,7 +8,6 @@
     #footerMobile {
       display:none;
     }
-    /********** fin footer **********/
 
     #textAcceuil {
       margin: 0 auto;
@@ -22,6 +21,7 @@
       text-align: center;
       font-size: 20px;
       line-height: 1em;
+      letter-spacing: 1px;
       font-family: 'DataLatin';
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
