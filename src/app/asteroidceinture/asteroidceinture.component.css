@@ -302,7 +302,7 @@
     /* .............footer........... */
     p {
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 1em;
         font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.7);
@@ -311,9 +311,9 @@
     }
     #footerDesktop {
         position: absolute;
-        top: 79em;
+        top: 75em;
         left: 0;
-        width: 100em;
+        width: 80em;
     }
     #footerIntro {
         width: 50%;
@@ -324,7 +324,7 @@
         border: 1px solid #2cabcf;
         border-radius: 15px;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 1em;
         font-family: 'Datalatin';
         color: rgb(199, 120, 46);
@@ -344,7 +344,7 @@
         border: 1px solid #2cabcf;
         border-radius: 15px;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 1em;
         font-family: 'Datalatin';
         color: rgb(199, 120, 46);
@@ -352,8 +352,8 @@
     
      /*.............. footer link effect.................. */
      .portfolio-experiment, .scene {
-        width: 8em;
-        height: 2em;
+        width: 10em;
+        height: 3em;
         overflow: hidden;
         margin: 0 auto;
       }
@@ -481,11 +481,11 @@
         /**********************************INFOS********************************/
 
     #info-asteroid-connu {
-        width: 80em;
+        width: 50em;
         height: auto;
         position: relative;
         margin: 0 auto; 
-        top: 250px;  
+        top: 200px;  
         background-image: url(/assets/fond-etoile.jpg);
         border-radius: 15px;
     }
@@ -501,15 +501,15 @@
         font-family: 'Datalatin';
         line-height: 1em;
         padding: 0.5em;
-        font-size: 25px;
+        font-size: 20px;
     }
     
 
     /*********************************CAROUSEL*******************************/
 
     .carousel {
-        width: 25em;
-        height: 28em;
+        width: 18em;
+        height: 22em;
         position: relative; 
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
@@ -556,7 +556,7 @@
     .button-aste {
         position: absolute;
         top: 17.7em;
-        left: 20em;
+        left: 10em;
         z-index: 2;
     }
     #button-left-carousel:hover {
