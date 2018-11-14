@@ -26,23 +26,30 @@
     text-rendering: optimizeLegibility;
 }
 
-body{ 
-    cursor: src("/assets/pointer.png");
-}
+/* -----------media query desktop version --------------*/
 
-#image-de-fond1 {    
-    position: absolute;
-    width: 99vw;
-    height: 100vw;
-    z-index: -1;
-}
+@media only screen and (min-device-width: 1025px){
+    
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    #image-de-fond1 {    
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        z-index: -1;
+    }
 
-#image-de-fond2 {
-    position: absolute;
-    width: 99vw;
-    height: 100vw;
-    z-index: -1;
-    opacity: 0.3;
+    #image-de-fond2 {
+        position: absolute;
+        width: 100vw;
+        background-size: cover;
+        -webkit-background-size: cover;
+        margin: 0;
+        padding: 0;
+        z-index: -1;
+        opacity: 0.3;
+    }
 }
 
 /*----------- media query tablette version ------------------*/
@@ -52,13 +59,14 @@ body{
     #image-de-fond1 {
         position: absolute;
         width: 140vw;
-        height: 320vw;
+        height: 580vw;
+        z-index: -1;
     }   
 
     #image-de-fond2 {
         position: absolute;
         width: 140vw;
-        height: 320vw;
+        height: 580vw;
         z-index: -1;
         opacity: 0.3;
     }
@@ -70,14 +78,15 @@ body{
 
     #image-de-fond1 {
         position: absolute;
-        width: 149vw;
-        height: 200vw;
+        width: 130vw;
+        height: 440vw;
+        z-index: -1;
     }  
 
     #image-de-fond2 {
         position: absolute;
-        width: 149vw;
-        height: 200vw;
+        width: 130vw;
+        height: 440vw;
         z-index: -1;
         opacity: 0.3;
     }
@@ -89,12 +98,15 @@ body{
     
     #image-de-fond1 {
         position: absolute;
-        height: 280vw;
+        width: 100vw;
+        height: 620vw;
+        z-index: -1;
     }
 
     #image-de-fond2 {
         position: absolute;
-        height: 280vw;
+        width: 100vw;
+        height: 620vw;
         z-index: -1;
         opacity: 0.3;
     }

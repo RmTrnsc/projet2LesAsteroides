@@ -1,6 +1,6 @@
 <div id="topBar">
   <a  id="acceuil"href="#">
-    <button routerLink="/Accueil"><img src="/assets/logoAsteronet2.jpg" width="150vw"><p>Return to acceuil</p></button>
+    <button routerLink="/Accueil"><img src="/assets/Sans-titre-3.jpg" width="150vw"><p>Return to home</p></button>
   </a>
   <p id="title">{{ title }}</p>    
   <a href="https://www.nasa.gov/" target="_blank"><img id="logo-nasa" src="../assets/nasa-logo.png" alt="logo nasa" width="90vw" height="80vw"></a>
@@ -15,26 +15,43 @@
     <div id="title-category">
       <li>
         <div id="acceuilMenuBurger">
-          <a href="#">Acceuil</a>
+          <a href="#">Home</a>
         </div>
       </li>
       <li>
-        <div id="title-categoryKuiperBelt">
-          <a routerLink="/Trojan asteroid">Trojan asteroid</a>
+      <div class="btn-wrapper">
+        <div class="btn-wrapper__container">
+          <div class="btn-inner">
+            <div id="title-categoryKuiperBelt">
+              <a class="btn-inner__text" routerLink="/Trojan asteroid">Trojan asteroid</a>
+            </div>
+          </div>
         </div>
+      </div>
       </li>
       <li>
-        <div id="title-categoryYouKnow">
-          <a routerLink="/You know this?">You know this ?</a>
+      <div class="btn-wrapper">
+        <div class="btn-wrapper__container">
+          <div class="btn-inner">
+            <div id="title-categoryYouKnow">
+              <a class="btn-inner__text" routerLink="/You know this?">You know this ?</a>
+            </div>
+          </div>
         </div>
+      </div>
       </li>
       <li>
-        <div id="title-categoryApprochEarth">
-          <a routerLink="/Under approach">Daily news</a>
+      <div class="btn-wrapper">
+        <div class="btn-wrapper__container">
+          <div class="btn-inner">
+            <div id="title-categoryApprochEarth">
+              <a class="btn-inner__text" routerLink="/Under approach">Asteroid news</a>
+            </div>
+          </div>
         </div>
+      </div>
       </li>
     </div>
   </ul>
 </div>
-
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>

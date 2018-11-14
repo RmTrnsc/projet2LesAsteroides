@@ -6,15 +6,19 @@
 }
 
 #title {
+    margin: 0 auto;
     margin-left: 2em;
-    font-size: 5em;
+    font-size: 2.5em;
     color: rgb(199, 120, 46);
-    font-family: 'CosmosNormal';
+    font-family: 'Datalatin';
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.3em;
+    border-radius: 15px;
 }
 
 #carouselSmartphoneTabletteText {
     position: relative;
-    background-image: url(/assets/fond-etoile1.png);
+    background-image: url(/assets/fond-etoile.jpg);
     margin: 0 auto;
     border: 2px solid #2cabcf;
     padding: 0.5em;
@@ -22,7 +26,8 @@
 }
 
 .asteroid-text {
-    color: rgb(255, 255, 255);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
     font-size: 28px;
     text-align: center;
 }
@@ -47,8 +52,9 @@
     }
  
     #title {
-        font-size: 6em;
+        font-size: 3em;
         margin-top: 0.5em;
+        margin-left: 36%;
     }
 
     #carouselSmartphoneTablette {
@@ -72,17 +78,52 @@
         width: 50vw;
         height: 8vw;
         text-align: center;
-        font-size: 60px;
-        font-family: 'CosmosNormal';
+        font-size: 35px;
+        font-family: 'Datalatin';
         background-color: rgb(0, 0, 0);
-        color: rgb(252, 211, 79);
+        color: #fff;
     }
     .asteroid-text {
         padding: 0.4em;
-        font-size: 80px;
-        font-family: 'CosmosNormal';
-        line-height: 0.8em;
+        font-size: 35px;
+        font-family: 'Datalatin';
+        line-height: 1em;
     }
+    p {
+        text-align: center;
+        font-size: 35px;
+        line-height: 1em;
+        font-family: 'Datalatin';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: #fff;
+    }
+    /* footer desktop */
+
+    #footerIntro {
+        display: none;
+      }
+      #footerContainer {
+        display: none;
+      }
+  
+      /* footer mobile */
+  
+      #footerMobile {
+          margin-left: 35%;
+          margin-top: 4em;
+      }
+      #footerMobile a{
+          color: #fff;
+          margin-left: 40%;
+          margin-bottom: 1em;
+          font-size: 25px;
+        }
+  
+      .footerMobileContributor {
+        margin-bottom: 1em;
+        margin-top: 1em;
+      }
 }
 
 /*------------- media query portrait mobile version ---------*/
@@ -95,7 +136,7 @@
 
     #title {
         margin: 0 auto;
-        font-size: 3em;
+        font-size: 1.5em;
     }    
 
     #carouselSmartphoneTabletteText {
@@ -116,17 +157,50 @@
         width: 50vw;
         height: auto;
         text-align: center;
-        font-size: 35px;
-        font-family: 'CosmosNormal';
+        font-size: 20px;
+        font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.6);
-        color: rgb(252, 211, 79);
+        color: #fff;
     }
     .asteroid-text {
         padding: 0.2em;
-        font-size: 30px;
-        font-family: 'CosmosNormal';
-        line-height: 0.8em;
+        font-size: 20px;
+        font-family: 'Datalatin';
+        line-height: 1em;
     }
+    p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1em;
+        font-family: 'Datalatin';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: #fff;
+    }
+    /* footer desktop */
+
+    #footerIntro {
+        display: none;
+      }
+      #footerContainer {
+        display: none;
+      }
+  
+      /* footer mobile */
+  
+      #footerMobile {
+        margin: 5em 1em 1em 1em;
+      }
+      #footerMobile a{
+        color: #fff;
+        margin-left: 7em;
+        margin-bottom: 1em;
+      }
+  
+      .footerMobileContributor {
+        margin-bottom: 1em;
+        margin-top: 1em;
+      }
 }
 
 /*------------- media query landscape mobile version ---------*/
@@ -138,12 +212,14 @@
     }
  
     #title {
+        margin-left: 13.5em;
         margin-top: 1em;
-        font-size: 4em;
+        font-size: 1.5em;
     }
 
     #carouselSmartphoneTablette {
-        margin-left: 10em;
+        margin-top: 1.5em;
+        margin-left: 7.5em;
     }
 
     #carouselSmartphoneTabletteText {
@@ -163,17 +239,52 @@
         width: 50vw;
         height: auto;
         text-align: center;
-        font-size: 45px;
-        font-family: 'CosmosNormal';
+        font-size: 25px;
+        font-family: 'Datalatin';
         background-color: rgba(0, 0, 0, 0.6);
-        color: rgb(252, 211, 79);
+        color: #fff;
     }
     .asteroid-text {
-        font-size: 50px;
-        font-family: 'CosmosNormal';
-        line-height: 0.8em;
+        font-size: 25px;
+        font-family: 'Datalatin';
+        line-height: 1em;
         padding: 0.2em;
     }
+    p {
+        text-align: center;
+        font-size: 25px;
+        line-height: 1em;
+        font-family: 'Datalatin';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: #fff;
+    }
+    /* footer desktop */
+
+    #footerIntro {
+        display: none;
+      }
+      #footerContainer {
+        display: none;
+      }
+  
+      /* footer mobile */
+  
+      #footerMobile {
+        margin-left: 12em;
+        margin-top: 2em;
+      }
+      #footerMobile a{
+        color: #fff;
+        margin-left: 6em;
+        margin-bottom: 1em;
+        font-size: 25px;
+      }
+  
+      .footerMobileContributor {
+        margin-bottom: 1em;
+        margin-top: 2em;
+      }
 }
 
 /*-------------------------------------------- CAROUSEL DESKTOP VERSION---------------------------------------------- */
@@ -183,7 +294,172 @@
     *{
         box-sizing: border-box;
     }
+    /********* footer mobile ***************/
 
+    #footerMobile {
+        display:none;
+      }
+    /* .............footer........... */
+    p {
+        text-align: center;
+        font-size: 25px;
+        line-height: 1em;
+        font-family: 'Datalatin';
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        color: #fff;
+    }
+    #footerDesktop {
+        position: absolute;
+        top: 79em;
+        left: 10em;
+        width: 100em;
+    }
+    #footerIntro {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 8em;
+        padding: 0.3em;
+        background-color: rgba(4, 138, 201, 0.459);
+        border: 1px solid #2cabcf;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 1em;
+        font-family: 'Datalatin';
+        color: #fff;
+    }
+    #footerContainer {
+        display:flex;
+        margin: 2em;
+    }
+    .footer-contributor {
+        width: 60%;
+        margin: 1em;
+        background-color: rgba(2, 82, 119, 0.568);
+        border-radius: 15px;
+    }
+    .footer-text {
+        padding: 0.3em;
+        border: 1px solid #2cabcf;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 1em;
+        font-family: 'Datalatin';
+        color: #fff;
+    }
+    
+     /*.............. footer link effect.................. */
+     .portfolio-experiment, .scene {
+        width: 8em;
+        height: 2em;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      .portfolio-experiment {
+          margin-bottom: 0.2em;
+      }
+      .portfolio-experiment a {
+        color: #fff;
+        border-radius: 15px;
+        padding: 0.4em;
+        display: inline-block;
+        border: 3px solid transparent;
+        position: relative;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .portfolio-experiment a .text {
+        font-family: 'Datalatin';
+        transform: translate3d(0, 0.7em, 0);
+        display: block;
+        transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+      }
+      .portfolio-experiment a:after {
+        position: absolute;
+        content: '';
+        bottom: -3px;
+        left: calc(0.7em * 1.2);
+        right: calc(0.7em * 1.2);
+        height: 3px;
+        background: #2cabcf;
+        transition: transform 0.6s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+        transform-origin: left;
+      }
+      .portfolio-experiment .line {
+        position: absolute;
+        background: #2cabcf;
+      }
+      .portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+        width: 3px;
+        bottom: -3px;
+        top: -3px;
+        transform: scale3d(1, 0, 1);
+      }
+      .portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+        height: 3px;
+        left: -3px;
+        right: -3px;
+        transform: scale3d(0, 1, 1);
+      }
+      .portfolio-experiment .line.-right {
+        right: -3px;
+        transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+        transform-origin: top;
+      }
+      .portfolio-experiment .line.-top {
+        top: -3px;
+        transition: transform 0.08s linear 0.43s;
+        transform-origin: left;
+      }
+      .portfolio-experiment .line.-left {
+        left: -3px;
+        transition: transform 0.08s linear 0.51s;
+        transform-origin: bottom;
+      }
+      .portfolio-experiment .line.-bottom {
+        bottom: -3px;
+        transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+        transform-origin: right;
+      }
+      .portfolio-experiment a:hover .text,
+      .portfolio-experiment a:active .text {
+        transform: translate3d(0, 0, 0);
+        transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+      }
+      .portfolio-experiment a:hover:after,
+      .portfolio-experiment a:active:after {
+        transform: scale3d(0, 1, 1);
+        right: -3px;
+        left: -3px;
+        transform-origin: right;
+        transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+      }
+      .portfolio-experiment a:hover .line,
+      .portfolio-experiment a:active .line {
+        transform: scale3d(1, 1, 1);
+      }
+      .portfolio-experiment a:hover .line.-right,
+      .portfolio-experiment a:active .line.-right {
+        transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+        transform-origin: bottom;
+      }
+      .portfolio-experiment a:hover .line.-top,
+      .portfolio-experiment a:active .line.-top {
+        transition: transform 0.08s linear 0.4s;
+        transform-origin: right;
+      }
+      .portfolio-experiment a:hover .line.-left,
+      .portfolio-experiment a:active .line.-left {
+        transition: transform 0.08s linear 0.48s;
+        transform-origin: top;
+      }
+      .portfolio-experiment a:hover .line.-bottom,
+      .portfolio-experiment a:active .line.-bottom {
+        transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+        transform-origin: left;
+      }
     #carouselSmartphoneTablette {
         display: none;
     }
@@ -196,34 +472,37 @@
         background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
         color: rgb(252, 211, 79);
-        font-family: 'CosmosNormal';
+        font-family: 'Datalatin';
         font-weight: bold;
-        font-size: 3em;
+        font-size: 2em;
     }
 
         /**********************************INFOS********************************/
 
     #info-asteroid-connu {
         width: 80em;
-        height: 20em;
+        height: auto;
         position: relative;
         margin: 0 auto; 
         top: 250px;  
+        background-image: url(/assets/fond-etoile.jpg);
+        border-radius: 15px;
     }
 
     .item2 {
         width: 100%;
         height: auto;
         text-align: center;
-        background-image: url(/assets/fond-etoile1.png);
-        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
         border: 2px solid #2cabcf;
-        border-radius: 10px;
-        font-family: 'CosmosNormal';
-        line-height: 0.8em;
+        border-radius: 15px;
+        font-family: 'Datalatin';
+        line-height: 1em;
         padding: 0.5em;
-        font-size: 40px;
+        font-size: 25px;
     }
+    
 
 
     /*********************************CAROUSEL*******************************/
@@ -258,6 +537,7 @@
     /****************************BOUTON**************************/
 
     #button-left-carousel {
+        cursor: pointer;
         border: none;
         background: rgba(0, 0, 0, 0); 
         outline-style: none;
@@ -265,6 +545,7 @@
     }
 
     #button-right-carousel {
+        cursor: pointer;
         border: none; 
         background: rgba(0, 0, 0, 0);
         outline-style: none;
@@ -275,7 +556,7 @@
     .button-aste {
         position: absolute;
         top: 17.7em;
-        left: 20em;
+        left: 31em;
         z-index: 2;
     }
 

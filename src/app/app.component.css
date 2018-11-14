@@ -15,13 +15,11 @@ button {
 }
 button p {
     position: absolute;
-    top: 15px;
-    left: 32px;
-    color: rgb(199, 120, 46);
+    top: 35px;
+    left: 18px;
+    color: #fff;
     opacity: 0;
-}
-#logo-nasa {
-    margin: 0.5em;
+    font-size: 22px;
 }
     /* .......title....... */
 
@@ -40,11 +38,14 @@ button p {
     .btn-navigation {
         display: none;
     }
-
     /*..............title..............*/
 
+    #logo-nasa {
+        margin-left: 40.5em;
+        margin-top: 1em;
+    }
     #title {
-        margin: 0 auto;
+        margin-left: 7.5em;
         color: rgb(199, 120, 46);
         font-size: 5em;
     }
@@ -52,52 +53,19 @@ button p {
 
     #title-category {
         display: flex;
-        margin-left: 17%;
+        margin-left: 25em;
         margin-top: 2em;
         margin-bottom: 5em;
     }
-        /*....... category......... */
+    #title-category a {
+        color: #fff;
+    }
+    /*....... category......... */
 
-    #title-categoryKuiperBelt > a {
-        color: rgb(199, 120, 46);
-        font-size: 2em;
-        text-align: center;
-        border: 3px solid #2cabcf;
-        background-image: url(/assets/etoile.jpg);
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 0.5em;
-        font-family: 'DataLatin';
-        transition: 0.7s;
-        margin-right: 2em;
+    /*************hover effect ***************/
+    button:hover {
+        cursor: pointer;
     }
-    #title-categoryYouKnow > a {
-        color: rgb(199, 120, 46);
-        font-size: 2em;
-        text-align: center;
-        border: 3px solid #2cabcf;
-        background-image: url(/assets/etoile.jpg);
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 0.5em;
-        font-family: 'DataLatin';
-        transition: 0.7s;
-        margin-right: 2em;
-    }
-    #title-categoryApprochEarth > a {
-        color: rgb(199, 120, 46);
-        font-size: 2em;
-        text-align: center;
-        border: 3px solid #2cabcf;
-        background-image: url(/assets/etoile.jpg);
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 0.5em;
-        font-family: 'DataLatin';
-        transition: 0.7s;
-    }
-    /*........hover effect.......*/
-
     button:hover img{
         opacity: 0.4;
         transition: 0.4s;
@@ -106,33 +74,60 @@ button p {
         opacity: 1;
         transition: 0.6s;
     }
-    #title-categoryKuiperBelt > a:hover {
-        background: rgba(182, 181, 181, 0.2);
-        text-shadow: 0 1px rgb(235, 117, 38);
-        transition: 0.5s;
+    .btn-wrapper {
+    width: 290px;
+    height: 110px;
+    position: relative;
+    margin-right: 2em;
     }
-    #title-categoryKuiperBelt > a:active {
-        color: red;
-        transition: 0.1s;
+    .btn-wrapper:hover .btn-inner {
+    top: -4px;
+    transform: scale(1, 1);
+    cursor: pointer;
     }
-    #title-categoryYouKnow > a:hover {
-        background: rgba(182, 181, 181, 0.2);
-        text-shadow: 0 1px rgb(235, 117, 38);
-        transition: 0.5s;
+    .btn-wrapper__container {
+    border-bottom: 2px solid rgb(199, 120, 46);
+    position: absolute;
+    width: 100%;
+    height: 80px;
     }
-
-    #title-categoryYouKnow > a:active {
-        color: red;
-        transition: 0.1s;
+    .btn-wrapper__container:before, .btn-wrapper__container:after {
+    border-bottom: 2px solid rgb(199, 120, 46);
+    width: 96%;
+    left: 2%;
+    bottom: -8px;
+    content: "";
+    position: absolute;
     }
-    #title-categoryApprochEarth > a:hover {
-        background: rgba(182, 181, 181, 0.2);
-        text-shadow: 0 1px rgb(235, 117, 38);
-        transition: 0.5s;
+    .btn-wrapper__container:after {
+    width: 92%;
+    left: 4%;
+    bottom: -14px;
     }
-    #title-categoryApprochEarth > a:active {
-        color: red;
-        transition: 0.1s;
+    .btn-wrapper__container .btn-inner {
+    width: 104.2%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: -2.1%;
+    border: 2px solid #15B5E2;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DataLatin';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-image: url(/assets/etoile.jpg);
+    transform: scale(0.96, 0.96);
+    transition: all .3s;
+    z-index: 4;
+    }
+    .btn-wrapper__container .btn-inner__text {
+    text-decoration: none;
+    color: rgb(199, 120, 46);
     }
 }
     /*.........media querie tablette version.....*/
@@ -144,10 +139,10 @@ button p {
     }
     #logo-nasa {
         position: absolute;
-        left: 120%;
+        left: 125%;
     }
     #title {
-        margin-left: 35%;
+        margin-left: 32.5%;
         font-size: 6em;
     }
     button {
@@ -156,15 +151,15 @@ button p {
     #title-category {
         width: 100vw;
         display:flex;
-        margin-left: 30%;
+        margin-left: 28%;
     }
     #title-categoryKuiperBelt > a, #title-categoryYouKnow > a {
         border: 1px solid ; 
         border-radius: 25px;
         font-size: 28px;
         padding: 0.4em;
-        margin-right: 0.5em;
-        color: rgb(199, 120, 46);
+        margin-right: 0.7em;
+        color: #fff;
         text-align: center;
         border: 1px solid #2cabcf;
         text-decoration: none;
@@ -177,7 +172,7 @@ button p {
         border-radius: 25px;
         font-size: 28px;
         padding: 0.4em;
-        color: rgb(199, 120, 46);
+        color: #fff;
         text-align: center;
         border: 1px solid #2cabcf;
         text-decoration: none;
@@ -195,14 +190,14 @@ button p {
     .btn-navigation {
         position: absolute;
         position: fixed;
-        left: 58em;
+        right: 30px;
         top: 8px;
         z-index: 30;
     }
     .btn-navigation .barre {
         width: 30px;
         height: 2px;
-        background: rgb(199, 120, 46);
+        background: #fff;
         margin-top: 5px;
         z-index: 20;
     }
@@ -238,7 +233,7 @@ button p {
         z-index: 20;
     }
     .navigation ul li a{
-        color: rgb(199, 120, 46);
+        color: #fff;
         font-family: 'DataLatin';
         text-transform: uppercase;
         font-size: 20px;
@@ -256,7 +251,7 @@ button p {
 
     /*...... navbar.... */
     #title {
-        margin-left: 6.5em;
+        margin-left: 5.5em;
         font-size: 60px;
     }
     #logo-nasa {
@@ -276,14 +271,15 @@ button p {
 
     .btn-navigation {
         position: absolute;
-        right: 30px;
+        position: fixed;
+        right: 10px;
         top: 8px;
         z-index: 30;
     }
     .btn-navigation .barre ,.btn-navigation .barre1{
         width: 30px;
         height: 2px;
-        background: rgb(199, 120, 46);
+        background: #fff;
         margin-top: 5px;
         z-index: 20;
     }
@@ -320,7 +316,7 @@ button p {
         z-index: 20;
     }
     .navigation ul li a{
-        color: rgb(199, 120, 46);
+        color: #fff;
         font-family: 'DataLatin';
         text-transform: uppercase;
         font-size: 16px;
